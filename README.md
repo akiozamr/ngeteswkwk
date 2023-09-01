@@ -1,3 +1,4 @@
+![Header](https://github.com/ThundarZ/Welcome/blob/main/github-header-image%20(10).png)
 <h1 align="center">Hi 👋, I'm Fikury</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thundarz&label=Profile%20views&color=0e75b6&style=flat" alt="thundarz" /> </p>
 
