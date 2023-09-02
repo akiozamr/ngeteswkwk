@@ -1,9 +1,9 @@
 local httpService = game:GetService("HttpService")
 
 local InterfaceManager = {} do
-	InterfaceManager.Folder = "FluentSettings"
+	InterfaceManager.Folder = "FluentThunderZ"
     InterfaceManager.Settings = {
-        Theme = "Aqua",
+        Theme = "Blue",
         Acrylic = false,
         Transparency = true,
         MenuKeybind = "Insert"
