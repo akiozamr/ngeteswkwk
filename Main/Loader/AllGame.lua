@@ -7,5 +7,5 @@ if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
         loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/BloxFruit/Main/Mobile.lua'))()
     end
 elseif PlaceId == 6918802270 then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/HazePiece/Main/AllDevice.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/HazePiece/AllDevices.lua'))()
 end
