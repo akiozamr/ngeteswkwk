@@ -1,4 +1,4 @@
-local Jawir = nil
+local JembutCicak = nil
 function Ireng()
     local JembutCicak = nil
     JembutCicak = hookmetamethod(game, "__index", newcclosure(function(I, J)
