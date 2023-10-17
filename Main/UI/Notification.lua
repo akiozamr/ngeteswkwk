@@ -82,7 +82,7 @@ function ThunderNotification(NotificationConfig)
         Parent = NotificationBody,
         Size = UDim2.new(1, 0, 0, 0),
         Position = UDim2.new(1, 15, 0, 5),
-        BackgroundColor3 = Color3.fromRGB(0, 27, 27),
+        BackgroundColor3 = Color3.fromRGB(1, 1, 1),
         ZIndex = 1002,
     }, {
         Create("UICorner", {CornerRadius = UDim.new(0, 8)}),
