@@ -17,61 +17,72 @@ local FruitList = {
     "Gas-Gas"
 }
 
+-- Fungsi untuk mengirimkan Webhook
 function WebHookLog:WebHookKaiTanSend(WebHookUrl)
 
-    -- Variabel untuk menyimpan informasi tentang buah
-    local MentionText = ""  -- Default tidak ada mention
+    local MentionText = ""  
+    local FruitName = ""
+    local WebhookSent = false
 
-    -- Mencari objek yang mengandung kata "Fruit" di dalam Backpack
+
     for _, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
         if v.Name:find("Fruit") then
-            -- Menyimpan nama lengkap objek yang ditemukan
-            FruitName = v.Name 
 
-            -- Memeriksa apakah nama objek ada dalam FruitList
+            FruitName = v.Name
+
+
             for _, fruit in pairs(FruitList) do
                 if v.Name == fruit then
-                    MentionText = "@everyone " -- Menambahkan mention jika buah sesuai dengan daftar
+                    MentionText = "@everyone " 
                     break
                 end
             end
-            break
+
+
+            if not WebhookSent then
+
+                local Embeds = {{
+                    ["title"] = "**Fruit Found**",
+                    ["color"] = tonumber(0xD936FF),
+                    ["fields"] = {
+                        {
+                            ["name"] = "[ 🍇 ] You Got Fruit :",
+                            ["value"] = FruitName
+                        },
+                    },
+                    ["footer"] = {
+                        ["text"] = ""..os.date("%c").." ("..os.date("%X")..")"
+                    },
+                }}
+
+
+                local Message = {
+                    ['username'] = "THUNDER Z FRUIT FINDER",
+                    ["avatar_url"] = "https://cdn.discordapp.com/attachments/962302731308105758/1071360247781924955/THUNDERZ_HUB_4.png",
+                    ["content"] = MentionText,
+                    ["embeds"] = Embeds,
+                }
+
+
+                local DataCallBack = AllRequest({
+                    Url = WebHookUrl,
+                    Method = 'POST',
+                    Headers = {
+                        ["Content-Type"] = "application/json"
+                    },
+                    Body = game:GetService("HttpService"):JSONEncode(Message)
+                })
+
+                WebhookSent = true
+            end
+
+            if WebhookSent then
+                break
+            end
         end
     end
 
-    -- Menyusun data untuk webhook
-    local Embeds = {{
-        ["title"] = "**Fruit Found**",
-        ["color"] = tonumber(0xD936FF),
-        ["fields"] = {
-            {
-                ["name"] = "[ 🍇 ] You Got Fruit :",
-                ["value"] = FruitName
-            },
-        },
-        ["footer"] = {
-            ["text"] = ""..os.date("%c").." ("..os.date("%X")..")"
-        },
-    }}
-
-    -- Menyusun pesan untuk webhook
-    local Message = {
-        ['username'] = "THUNDER Z FRUIT FINDER",
-        ["avatar_url"] = "https://cdn.discordapp.com/attachments/962302731308105758/1071360247781924955/THUNDERZ_HUB_4.png",
-        ["content"] = MentionText,
-        ["embeds"] = Embeds,
-    }
-
-    -- Mengirimkan data ke webhook
-    local DataCallBack = AllRequest({
-        Url = WebHookUrl,
-        Method = 'POST',
-        Headers = {
-            ["Content-Type"] = "application/json"
-        },
-        Body = game:GetService("HttpService"):JSONEncode(Message)
-    })
-    return DataCallBack
+    return WebHookLog
 end
 
 return WebHookLog
