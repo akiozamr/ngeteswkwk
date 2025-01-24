@@ -21,7 +21,7 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
 
     local MentionText = ""  
     local FruitName = ""
-    local StoreSuccess
+    StoreSuccess = true
 
 
     for _, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
@@ -38,15 +38,18 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
         end
     end
 
- 
-    for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Notifications:GetChildren()) do
-        if v.Name == "NotificationTemplate" then
-            if string.find(v.Text, "You can only store") then
-                StoreSuccess = false
-                break
+     spawn(function()
+        while wait() do
+            for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Notifications:GetChildren()) do
+                if v.Name == "NotificationTemplate" then
+                    if string.find(v.Text, "You can only store") then
+                        StoreSuccess = false
+                        break
+                    end
+                end
             end
         end
-    end
+    end)
 
 
     if not StoreSuccess then
