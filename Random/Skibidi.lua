@@ -9,8 +9,8 @@ local vynixuModules = {
 	Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Random/Functions.lua"))()
 }
 local assets = {
-    DiscordInvitePrompt = LoadCustomInstance("https://github.com/ThundarZ/Welcome/blob/main/Random/DiscordInvitePrompt.rbxm"),
-    NotificationSound = LoadCustomAsset("https://github.com/ThundarZ/Welcome/blob/main/Random/Notification.mp3")
+    DiscordInvitePrompt = LoadCustomInstance("https://github.com/ThundarZ/Welcome/raw/refs/heads/main/Random/DiscordInvitePrompt.rbxm"),
+    NotificationSound = LoadCustomAsset("https://github.com/ThundarZ/Welcome/raw/refs/heads/main/Random/Notification.mp3")
 }
 local module = {}
 
