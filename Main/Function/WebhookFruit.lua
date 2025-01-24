@@ -21,9 +21,10 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
 
     local MentionText = ""  
     local FruitName = ""
-    StoreSuccess = true
+    local StoreSuccess = true
+    local NotificationChecked = false
 
-
+    -- Cari buah di dalam Backpack
     for _, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
         if v.Name:find("Fruit") then
             FruitName = v.Name 
@@ -38,27 +39,29 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
         end
     end
 
-     spawn(function()
-        while wait() do
-            for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Notifications:GetChildren()) do
-                if v.Name == "NotificationTemplate" then
-                    if string.find(v.Text, "You can only store") then
-                        StoreSuccess = false
-                        break
-                    end
+    -- Periksa notifikasi penyimpanan
+    spawn(function()
+        while not NotificationChecked do
+            wait()
+            for _, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Notifications:GetChildren()) do
+                if v.Name == "NotificationTemplate" and string.find(v.Text, "You can only store") then
+                    StoreSuccess = false
+                    NotificationChecked = true
+                    break
                 end
             end
         end
     end)
 
+    -- Tunggu hingga proses notifikasi selesai
+    repeat wait() until NotificationChecked
 
-    if not StoreSuccess then
-        StatusMessage = "Failed to Store Fruit: " .. FruitName .. " (Storage Full)"
-    else
-        StatusMessage = "Successfully Stored Fruit: " .. FruitName
-    end
+    -- Set status pesan
+    local StatusMessage = StoreSuccess 
+        and ("Successfully Stored Fruit: " .. FruitName) 
+        or ("Failed to Store Fruit: " .. FruitName .. " (Storage Full)")
 
- 
+    -- Data embed untuk webhook
     local Embeds = {{
         ["title"] = "**Fruit Storage Status**",
         ["color"] = tonumber(0xD936FF),
@@ -77,7 +80,7 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
         },
     }}
 
-
+    -- Data pesan untuk webhook
     local Message = {
         ['username'] = "THUNDER Z FRUIT FINDER",
         ["avatar_url"] = "https://cdn.discordapp.com/attachments/962302731308105758/1071360247781924955/THUNDERZ_HUB_4.png",
@@ -85,7 +88,7 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
         ["embeds"] = Embeds,
     }
 
-
+    -- Kirim data melalui webhook
     local DataCallBack = AllRequest({
         Url = WebHookUrl,
         Method = 'POST',
