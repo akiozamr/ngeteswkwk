@@ -21,7 +21,7 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
 
     local MentionText = ""  
     local FruitName = ""
-    local StoreSuccess = true
+    local StoreSuccess
 
 
     for _, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
