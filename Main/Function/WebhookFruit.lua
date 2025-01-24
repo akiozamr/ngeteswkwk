@@ -49,9 +49,10 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
     end
 
 
-    local StatusMessage = "Successfully Stored Fruit: " .. FruitName
     if not StoreSuccess then
         StatusMessage = "Failed to Store Fruit: " .. FruitName .. " (Storage Full)"
+    else
+        StatusMessage = "Successfully Stored Fruit: " .. FruitName
     end
 
  
