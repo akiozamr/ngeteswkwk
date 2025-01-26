@@ -2,27 +2,27 @@ local WebHookLog = {}
 local AllRequest = http_request or request or HttpPost or syn.request
 
 local FruitList = {
-    "Gravity-Gravity",
-    "Dough-Dough",
-    "Venom-Venom",
-    "Shadow-Shadow",
-    "Control-Control",
-    "Soul-Soul",
-    "Dragon-Dragon",
-    "Leopard-Leopard",
-    "Mammoth-Mammoth",
-    "T-Rex-T-Rex",
-    "Kitsune-Kitsune",
-    "Yeti-Yeti",
-    "Gas-Gas"
+    "Gravity Fruit",
+    "Dough Fruit",
+    "Shadow Fruit",
+    "Venom Fruit",
+    "Control Fruit",
+    "Spirit Fruit",
+    "Dragon Fruit",
+    "Leopard Fruit",
+    "Mammoth Fruit",
+    "Kitsune Fruit",
+    "T-Rex Fruit",
+    "Yeti Fruit",
+    "Gas Fruit"
 }
 
 function WebHookLog:WebHookKaiTanSend(WebHookUrl)
-
     local MentionText = ""  
     local FruitName = ""
     local StoreSuccess = true
     local NotificationChecked = false
+    local Timeout = 0.5 -- Timeout untuk menunggu notifikasi (dalam detik)
 
     -- Cari buah di dalam Backpack
     for _, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
@@ -31,7 +31,7 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
 
             for _, fruit in pairs(FruitList) do
                 if v.Name == fruit then
-                    MentionText = "@everyone "
+                    MentionText = "@everyone"
                     break
                 end
             end
@@ -40,26 +40,26 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
     end
 
     -- Periksa notifikasi penyimpanan
-    spawn(function()
-        while not NotificationChecked do
-            wait()
-            for _, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Notifications:GetChildren()) do
-                if v.Name == "NotificationTemplate" and string.find(v.Text, "You can only store") then
-                    StoreSuccess = false
-                    NotificationChecked = true
-                    break
-                end
+    local StartTime = tick()
+    while not NotificationChecked and (tick() - StartTime) < Timeout do
+        wait()
+        for _, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Notifications:GetChildren()) do
+            if v.Name == "NotificationTemplate" and string.find(v.Text, "You can only store") then
+                StoreSuccess = false
+                NotificationChecked = true
+                break
             end
         end
-    end)
+    end
 
-    -- Tunggu hingga proses notifikasi selesai
-    repeat wait() until NotificationChecked
+    -- Jika waktu habis tanpa notifikasi, anggap sukses
+    if not NotificationChecked then
+        NotificationChecked = true
+        StoreSuccess = true
+    end
 
     -- Set status pesan
-    local StatusMessage = StoreSuccess 
-        and ("Successfully Stored Fruit: " .. FruitName) 
-        or ("Failed to Store Fruit: " .. FruitName .. " (Storage Full)")
+    local StatusMessage = StoreSuccess and ("Successfully Stored Fruit: " .. FruitName) or ("Failed to Store Fruit: " .. FruitName .. " (Storage Full)")
 
     -- Data embed untuk webhook
     local Embeds = {{
