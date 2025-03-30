@@ -1,10 +1,10 @@
 return {
-  ["Leveling City"] = {"Soondoo", "Gonshee", "Daek", "LongIn", "Anders", "Largalgan"},
-  ["Grass Village"] = {"Snake Man", "Blossom", "Crow"},
-  ["Brum Island"] = {"Shark Man", "Eminel", "Light Admiral"},
-  ["Faceheal Town"] = {"Luryu", "Fyakuya", "Genji"},
-  ["Lucky Kingdom"] = {"Sortudo", "Michille", "Wind"},
-  ["Nippon City"] = {"Heaven", "Zere", "Ika"},
-  ["Mori Town"] = {"Diablo", "Gosuke", "Golyne"}
+  ["Leveling City"] = {"Soondoo", "Gonshee", "Daek", "LongIn", "Anders", "Largalgan"}, order = 1 },
+  ["Grass Village"] = {"Snake Man", "Blossom", "Crow"}, order = 2 },
+  ["Brum Island"] = {"Shark Man", "Eminel", "Light Admiral"}, order = 3 },
+  ["Faceheal Town"] = {"Luryu", "Fyakuya", "Genji"}, order = 4 },
+  ["Lucky Kingdom"] = {"Sortudo", "Michille", "Wind"}, order = 5 },
+  ["Nippon City"] = {"Heaven", "Zere", "Ika"}, order = 6 },
+  ["Mori Town"] = {"Diablo", "Gosuke", "Golyne"}, order = 7 }
     
 }
