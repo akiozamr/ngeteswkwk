@@ -12,6 +12,11 @@
 		["Genji"] = CFrame.new(3059, 45, -3327),
 		["Sortudo"] = CFrame.new(231, 37, 4488),
 		["Michille"] = CFrame.new(303, 37, 4763),
-		["Wind"] = CFrame.new(160, 39, 5121)
+		["Wind"] = CFrame.new(160, 39, 5121),
+		["Heaven"] = CFrame.new(206, 32, -4422),
+		["Zere"] = CFrame.new(200, 33, -5022),
+		["Ika"] = CFrame.new(403, 34, -4805),
+		["Diablo"] = CFrame.new(4943, 40, -119),
+		["Gosuke"] = CFrame.new(5446, 40, -128),
+		["Golyne"] = CFrame.new(5446, 40, -128)
 	}
-	
