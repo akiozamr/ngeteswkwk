@@ -18,5 +18,8 @@
 		["Ika"] = CFrame.new(403, 34, -4805),
 		["Diablo"] = CFrame.new(4943, 40, -119),
 		["Gosuke"] = CFrame.new(5446, 40, -128),
-		["Golyne"] = CFrame.new(5446, 40, -128)
+		["Golyne"] = CFrame.new(5446, 40, -128),
+		["Turtle"] = CFrame.new(-6423, 27, -76),
+		["Green"] = CFrame.new(-6882, 27, 235),
+		["Sky"] = CFrame.new(-7110, 26, -472)
 	}
