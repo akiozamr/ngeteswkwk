@@ -5,5 +5,6 @@ return {
   ["Faceheal Town"] = { "Luryu", "Fyakuya", "Genji", order = 4 },
   ["Lucky Kingdom"] = { "Sortudo", "Michille", "Wind", order = 5 },
   ["Nippon City"] = { "Heaven", "Zere", "Ika", order = 6 },
-  ["Mori Town"] = { "Diablo", "Gosuke", "Golyne", order = 7 }
+  ["Mori Town"] = { "Diablo", "Gosuke", "Golyne", order = 7 },
+  ["Dragon City"] = {"Turtle", "Green", "Sky", order = 8 }
 }
