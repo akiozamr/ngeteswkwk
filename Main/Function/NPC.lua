@@ -21,5 +21,8 @@
 		["Golyne"] = CFrame.new(5446, 40, -128),
 		["Turtle"] = CFrame.new(-6423, 27, -76),
 		["Green"] = CFrame.new(-6882, 27, 235),
-		["Sky"] = CFrame.new(-7110, 26, -472)
+		["Sky"] = CFrame.new(-7110, 26, -472),
+		["Rider"] = CFrame.new(6037, 25, 4324),
+		["Cyborg"] = CFrame.new(6181, 25, 4823),
+		["Hurricane"] = CFrame.new(5634, 26, 5017)
 	}
