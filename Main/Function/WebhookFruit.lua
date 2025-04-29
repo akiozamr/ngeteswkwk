@@ -1,5 +1,7 @@
 local WebHookLog = {}
 local AllRequest = http_request or request or HttpPost or syn.request
+local unixTimestamp = os.time()
+local timestamp = os.date("!%Y-%m-%dT%H:%M:%SZ", unixTimestamp)
 
 local FruitList = {
     "Gravity Fruit",
@@ -69,8 +71,10 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl, FruitName)
             }
         },
         ["footer"] = {
-            ["text"] = "" .. os.date("%c") .. " (" .. os.date("%X") .. ")"
+            ["text"] = "Thunder Z"
         },
+        ["image"] = {["url"] = "https://i.imgur.com/2wosJIs.gif"},
+        ["timestamp"] = timestamp
     }}
 
     local Message = {
