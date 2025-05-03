@@ -24,5 +24,8 @@
 		["Sky"] = CFrame.new(-7110, 26, -472),
 		["Rider"] = CFrame.new(6037, 25, 4324),
 		["Cyborg"] = CFrame.new(6181, 25, 4823),
-		["Hurricane"] = CFrame.new(5634, 26, 5017)
+		["Hurricane"] = CFrame.new(5634, 26, 5017),
+		["Shrimp"] = CFrame.new(-4392, 20, 5801),
+		["Lomo"] = CFrame.new(-4345, 22, 6182),
+		["Baira"] = CFrame.new(-4349, 20, 5979)
 	}
