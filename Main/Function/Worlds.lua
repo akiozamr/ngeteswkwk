@@ -8,5 +8,6 @@ return {
   ["Mori Town"] = { "Diablo", "Gosuke", "Golyne", order = 7 },
   ["Dragon City"] = {"Turtle", "Green", "Sky", order = 8 },
   ["XZ City"] = {"Rider", "Cyborg", "Hurricane", order = 9 },
-  ["Kindama City"] = {"Shrimp", "Baira", "Lomo", order = 10 }
+  ["Kindama City"] = {"Shrimp", "Baira", "Lomo", order = 10 },
+  ["Hunters City"] = {"Wuiri", "Gennart", "Chris", order = 11 }
 }
