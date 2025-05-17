@@ -27,5 +27,8 @@
 		["Hurricane"] = CFrame.new(5634, 26, 5017),
 		["Shrimp"] = CFrame.new(-4392, 20, 5801),
 		["Lomo"] = CFrame.new(-4345, 22, 6182),
-		["Baira"] = CFrame.new(-4349, 20, 5979)
+		["Baira"] = CFrame.new(-4349, 20, 5979),
+		["Wuiri"] = CFrame.new(5480, 24, -6327),
+		["Gernnart"] = CFrame.new(5478, 24, -6601),
+		["Chris"] = CFrame.new(6073, 24, -6540)
 	}
