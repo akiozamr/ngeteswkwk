@@ -1244,10 +1244,6 @@ function module.Return_All_Data()
     return allPlants
 end
 
-function module.Return_All_Seeds()
-    return allSeeds
-end
-
 function module.Return_Data(itemName)
     for _, data in ipairs(allPlants) do
         if data[1] == itemName then
@@ -1257,12 +1253,16 @@ function module.Return_Data(itemName)
 end
 
 function module.Return_Multiplier(variantName)
-    for _, data in ipairs(variants) do
-        if data[1] == variantName then
-            return data[3]
+    for _, v in ipairs(variants) do
+        if v[1] == variantName then
+            return v[3]
         end
     end
-    return 1 -- default multiplier jika varian tidak ditemukan
+    return 1
+end
+
+function module.Return_All_Seeds()
+    return allSeeds
 end
 
 return module
