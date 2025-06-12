@@ -107,6 +107,10 @@ function module.GetMutations()
 end
 
 function module.CalcValueMulti(plant)
+    if typeof(plant) ~= "Instance" or not plant.GetAttribute then
+        return 1
+    end
+
     local valueMulti = 1
     for _, data in pairs(mutations) do
         if plant:GetAttribute(data.Name) then
