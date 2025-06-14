@@ -1116,6 +1116,51 @@ local v4 = {
 			["Dance"] = v3.DiscoBee.Dance
 		}
 	},
+	["Cooked Owl"] = {
+		Description = "Let Him Cook: Occasionaly burns or cook a random nearby fruit & King of the Grill: Grants bonus experience per second gain to all active pets. Also very tasty!";
+		Actions = {};
+		Model = var6:FindFirstChild("Cooked Owl");
+		ToolWeldOffset = true;
+		DefaultHunger = 50000;
+		WeldOffset = CFrame.Angles(0, (math.pi/2), (math.pi/2));
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://78954652883059";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 8;
+		SellPrice = 3000000;
+		Rarity = "Mythical";
+		Passives = {"Let Him Cook", "King of the Grill", "Movement Variation"};
+		YHeightScaler = 0.1;
+		Animations = {
+			Idle = PetAnimations.CookedOwl.Idle;
+			Walk = PetAnimations.CookedOwl.Walk;
+			Fly = PetAnimations.CookedOwl.Fly;
+			FlyUp = PetAnimations.CookedOwl.FlyUp;
+			FlyDown = PetAnimations.CookedOwl.FlyDown;
+		};
+	};
+	["Pack Bee"] = {
+		Description = "Pack Bee: Increases backpack size by 25";
+		Actions = {};
+		Model = var6:FindFirstChild("Pack Bee");
+		DefaultHunger = 25000;
+		WeldOffset = CFrame.Angles(0, (math.pi/2), (-math.pi));
+		ToolWeldOffset = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://105775306251306";
+		HungerFruitMultipliers = {};
+		MovementType = "Flight";
+		MovementSpeed = 9;
+		SellPrice = 2500000;
+		Rarity = "Mythical";
+		Passives = {"Pack Bee"};
+		YHeightScaler = 0.5;
+		Animations = {
+			Idle = PetAnimations.Bee.Idle;
+			Walk = PetAnimations.Bee.Walk;
+		}
+	},
 	["Firefly"] = {
 		["Description"] = "Lightning Bug: Occasionally strikes a random nearby fruit, with a small chance of turning it Shocked",
 		["Actions"] = {},
