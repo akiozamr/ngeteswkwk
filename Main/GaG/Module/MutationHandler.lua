@@ -106,7 +106,7 @@ function module.GetMutations()
     return list
 end
 
-function module.CalcValueMulti(plant)
+function module:CalcValueMulti(plant)
     if typeof(plant) ~= "Instance" then
         return 1
     end
