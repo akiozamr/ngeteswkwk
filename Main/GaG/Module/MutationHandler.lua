@@ -107,16 +107,31 @@ function module.GetMutations()
 end
 
 function module.CalcValueMulti(plant)
-    if typeof(plant) ~= "Instance" or not plant.GetAttribute then
+    if typeof(plant) ~= "Instance" then
         return 1
     end
 
     local valueMulti = 1
-    for _, data in pairs(mutations) do
-        if plant:GetAttribute(data.Name) then
+    local detected = {}
+
+    -- Cek dari atribut (attribute-based mutation flags)
+    for name, data in pairs(mutations) do
+        if plant:GetAttribute(name) then
             valueMulti += (data.ValueMulti - 1)
+            detected[name] = true
         end
     end
+
+    for _, child in ipairs(plant:GetChildren()) do
+        if child:IsA("StringValue") then
+            local name = child.Value
+            if mutations[name] and not detected[name] then
+                valueMulti += (mutations[name].ValueMulti - 1)
+                detected[name] = true
+            end
+        end
+    end
+
     return math.max(1, valueMulti)
 end
 
