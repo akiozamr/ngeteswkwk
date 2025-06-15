@@ -1230,6 +1230,76 @@ local allSeeds = {
         100,
         0,
         nil
+    },
+    {
+        "Prickly Pear Seed",
+        "Prickly Pear",
+        10,
+        "Common",
+        3265927895,
+        100,
+        0,
+        nil
+    },
+    {
+        "Green Apple Seed",
+        "Green Apple",
+        10,
+        "Legendary",
+        3265927895,
+        100,
+        0,
+        nil
+    },
+    {
+        "Sugar Apple Seed",
+        "Sugar Apple",
+        10,
+        "Legendary",
+        3304968889,
+        100,
+        0,
+        3304969010
+    },
+    {
+        "Dragon Pepper Seed",
+        "Dragon Pepper",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Cocovine Seed",
+        "Cocovine",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Loquat Seed",
+        "Loquat",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Ice Cream Bean Seed",
+        "Ice Cream Bean",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
     }
 }
 
