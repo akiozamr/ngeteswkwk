@@ -126,8 +126,110 @@ local allPlants = {
     {
         "Ember Lily",
         12,
-        55555,
+        66666,
         450
+    },
+    {
+        "Sugar Apple",
+        9,
+        48000,
+        200
+    },
+    {
+        "Pineapple",
+        3,
+        2000,
+        70
+    },
+    {
+        "Cauliflower",
+        5,
+        40,
+        150
+    },
+    {
+        "Green Apple",
+        3,
+        300,
+        200
+    },
+    {
+        "Banana",
+        1.5,
+        2000,
+        100
+    },
+    {
+        "Avocado",
+        6.5,
+        350,
+        300
+    },
+    {
+        "Kiwi",
+        5,
+        2750,
+        300
+    },
+    {
+        "Bell Pepper",
+        8,
+        5500,
+        325
+    },
+    {
+        "Prickly Pear",
+        7,
+        7000,
+        375
+    },
+    {
+        "Feijoa",
+        10,
+        13000,
+        400
+    },
+    {
+        "Loquat",
+        6.5,
+        8000,
+        200
+    },
+    {
+        "Wild Carrot",
+        0.3,
+        25000,
+        100
+    },
+    {
+        "Pear",
+        3,
+        20000,
+        120
+    },
+    {
+        "Cantaloupe",
+        5.5,
+        34000,
+        250
+    },
+    {
+        "Parasol Flower",
+        6,
+        200000,
+        350
+    },
+    {
+        "Rosy Delight",
+        10,
+        69000,
+        450
+    },
+    {
+        "Elephant Ears",
+        18,
+        77000,
+        500
     },
     {
         "Chocolate Carrot",
@@ -175,12 +277,6 @@ local allPlants = {
         "Raspberry",
         0.75,
         100,
-        70
-    },
-    {
-        "Pineapple",
-        3,
-        2000,
         70
     },
     {
@@ -238,63 +334,39 @@ local allPlants = {
         50
     },
     {
-        "Pear",
-        3,
-        500,
-        20
-    },
-    {
-        "Crocus",
-        0.05,
-        850,
-        55
-    },
-    {
         "Pink Tulip",
         0.05,
         850,
         55
     },
     {
-        "Succulent",
-        3,
-        500,
-        150
-    },
-    {
-        "Avocado",
-        2,
-        500,
-        150
-    },
-    {
         "Cranberry",
         1,
-        3000,
+        3500,
         50
     },
     {
         "Durian",
         8,
-        7000,
+        7500,
         200
     },
     {
         "Eggplant",
         5,
-        9500,
+        12000,
         220
     },
     {
         "Lotus",
         20,
-        25000,
+        35000,
         650
     },
     {
         "Venus Fly Trap",
         10,
-        45000,
+        85000,
         650
     },
     {
@@ -330,13 +402,13 @@ local allPlants = {
     {
         "Moonglow",
         7,
-        20000,
+        25000,
         400
     },
     {
         "Moon Blossom",
         3,
-        60000,
+        66666,
         400
     },
     {
@@ -402,7 +474,7 @@ local allPlants = {
     {
         "Sunflower",
         16.5,
-        150000,
+        160000,
         600
     },
     {
@@ -420,13 +492,13 @@ local allPlants = {
     {
         "Nectarine",
         3,
-        40000,
+        48000,
         200
     },
     {
         "Hive Fruit",
         8,
-        50000,
+        62000,
         300
     },
     {
@@ -454,10 +526,58 @@ local allPlants = {
         400
     },
     {
-        "Bee Balm",
-        1.5,
-        20000,
+        "Crocus",
+        0.275,
+        30000,
+        150
+    },
+    {
+        "Succulent",
+        5,
+        25000,
+        175
+    },
+    {
+        "Violet Corn",
+        3,
+        50000,
         250
+    },
+    {
+        "Bendboo",
+        18,
+        155000,
+        275
+    },
+    {
+        "Cocovine",
+        14,
+        66666,
+        275
+    },
+    {
+        "Dragon Pepper",
+        6,
+        88888,
+        300
+    },
+    {
+        "Bee Balm",
+        1,
+        18000,
+        200
+    },
+    {
+        "Nectar Thorn",
+        7,
+        44444,
+        350
+    },
+    {
+        "Suncoil",
+        10,
+        80000,
+        400
     },
     {
         "Noble Flower",
@@ -466,16 +586,22 @@ local allPlants = {
         250
     },
     {
-        "Nectar Thorn",
-        5,
+        "Traveler's Fruit",
+        2,
         20000,
         250
     },
     {
-        "Suncoil",
-        13,
-        20000,
+        "Ice Cream Bean",
+        4,
+        4500,
         200
+    },
+    {
+        "Lime",
+        1,
+        1000,
+        125
     }
 }
 
@@ -1300,6 +1426,86 @@ local allSeeds = {
         100,
         0,
         0
+    },
+    {
+        "Lime Seed",
+        "Lime",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Kiwi Seed",
+        "Kiwi",
+        10,
+        "Legendary",
+        3312011732,
+        100,
+        0,
+        3312011920
+    },
+    {
+        "Feijoa Seed",
+        "Feijoa",
+        10,
+        "Legendary",
+        3312013874,
+        100,
+        0,
+        3312014052
+    },
+    {
+        "Cantaloupe Seed",
+        "Cantaloupe",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Cauliflower Seed",
+        "Cauliflower",
+        10,
+        "Legendary",
+        3312007044,
+        100,
+        0,
+        3312007405
+    },
+    {
+        "Wild Carrot Seed",
+        "Wild Carrot",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Rosy Delight Seed",
+        "Rosy Delight",
+        10,
+        "Divine",
+        3265927895,
+        100,
+        0,
+        nil
+    },
+    {
+        "Bell Pepper Seed",
+        "Bell Pepper",
+        10,
+        "Divine",
+        3312012483,
+        100,
+        0,
+        3312012716
     }
 }
 
