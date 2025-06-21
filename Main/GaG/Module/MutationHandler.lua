@@ -149,5 +149,5 @@ function module:CalcValueMulti(plant)
 
     return math.max(1, valueMulti)
 end
-
+module.MutationsByName = mutations
 return module
