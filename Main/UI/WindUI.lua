@@ -2133,7 +2133,7 @@ h.Image, h.Title, h.UICorner - 3, g.Window.Folder, "Image", h.Color and true or 
                     ImageColor3 = Color3.new(0, 0, 0),
                 })
             end
-            local p = d.NewRoundFrame(n, "Squircle", { --fungsi toggle ganti
+            local p = d.NewRoundFrame(n, "Squircle", { --fungsi toggle
                 ImageTransparency = .95,
                 ThemeTag = {
                     ImageColor3 = "Text"
@@ -2141,9 +2141,9 @@ h.Image, h.Title, h.UICorner - 3, g.Window.Folder, "Image", h.Color and true or 
                 Parent = i,
                 Size = UDim2.new(0, 42, 0, 26),
             }, {
-                d.NewRoundFrame(n, "Squircle", {
+                d.NewRoundFrame(n, "Squircle", { --ganti
                     Size = UDim2.new(1, 0, 1, 0),
-                    Name = "Layer",
+                    Name = "Text",--ganti
                     ThemeTag = {
                         ImageColor3 = "Button",
                     },
