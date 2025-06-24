@@ -2433,25 +2433,33 @@ h.Image, h.Title, h.UICorner - 3, g.Window.Folder, "Image", h.Color and true or 
                     ImageColor3 = "Text",
                 },
             }, {
-                -- FRAME isi progress slider
+                -- Frame progress utama
                 b.NewRoundFrame(99, "Squircle", {
                     Name = "Frame",
                     Size = UDim2.new(s, 0, 1, 0),
-                    ImageTransparency = .1,
+                    ImageTransparency = 1, -- transparan agar gradient terlihat
                     ThemeTag = {
                         ImageColor3 = "Text",
                     },
                 }, {
-                    -- Tambahkan gradient di dalam frame progress
-                    e("UIGradient", {
-                        Rotation = 0,
-                        Color = ColorSequence.new{
-                            ColorSequenceKeypoint.new(0, Color3.fromHex("#9D00FF")),
-                            ColorSequenceKeypoint.new(1, Color3.fromHex("#00E5FF"))
-                        }
+                    -- Layer tambahan sebagai background gradient (pakai Frame biasa)
+                    e("Frame", {
+                        Name = "GradientLayer",
+                        Size = UDim2.new(1, 0, 1, 0),
+                        BackgroundColor3 = Color3.new(1,1,1),
+                        BackgroundTransparency = 0,
+                        BorderSizePixel = 0,
+                    }, {
+                        e("UIGradient", {
+                            Rotation = 0,
+                            Color = ColorSequence.new{
+                                ColorSequenceKeypoint.new(0, Color3.fromHex("#9D00FF")),
+                                ColorSequenceKeypoint.new(1, Color3.fromHex("#00E5FF"))
+                            }
+                        })
                     }),
             
-                    -- Bulatan slider di ujung
+                    -- Bulatan slider
                     b.NewRoundFrame(99, "Squircle", {
                         Size = UDim2.new(0, 13, 0, 13),
                         Position = UDim2.new(1, 0, 0.5, 0),
@@ -2462,6 +2470,7 @@ h.Image, h.Title, h.UICorner - 3, g.Window.Folder, "Image", h.Color and true or 
                     })
                 })
             })
+            
             
             k.UIElements.SliderContainer = e("Frame", {
                 Size = UDim2.new(1, 0, 0, 0),
