@@ -154,20 +154,18 @@ function module:CalcValueMulti(plant)
     local valueMulti = 1
     local detected = {}
 
-    -- Dari attribute
     for name, data in pairs(mutations) do
         if plant:GetAttribute(name) then
-            valueMulti *= data.ValueMulti
+            valueMulti += (data.ValueMulti - 1)
             detected[name] = true
         end
     end
 
-    -- Dari anak StringValue
     for _, child in ipairs(plant:GetChildren()) do
         if child:IsA("StringValue") then
             local name = child.Value
             if mutations[name] and not detected[name] then
-                valueMulti *= mutations[name].ValueMulti
+                valueMulti += (mutations[name].ValueMulti - 1)
                 detected[name] = true
             end
         end
