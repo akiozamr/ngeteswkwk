@@ -2439,12 +2439,12 @@ h.Image, h.Title, h.UICorner - 3, g.Window.Folder, "Image", h.Color and true or 
                     Size = UDim2.new(s, 0, 1, 0),
                     ImageTransparency = .1,
                     ThemeTag = {
-                        ImageColor3 = "Button",
+                        ImageColor3 = "Text",
                     },
                 }, {
                     -- Tambahkan gradient di dalam frame progress
                     e("UIGradient", {
-                        Rotation = 45,
+                        Rotation = 10,
                         Color = ColorSequence.new{
                             ColorSequenceKeypoint.new(0, Color3.fromHex("#9D00FF")),
                             ColorSequenceKeypoint.new(1, Color3.fromHex("#00E5FF"))
