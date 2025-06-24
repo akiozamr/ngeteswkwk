@@ -157,7 +157,7 @@ function module:CalcValueMulti(plant)
     for name, data in pairs(mutations) do
         if plant:GetAttribute(name) then
             valueMulti += (data.ValueMulti - 1)
-            detected[name] = true
+            detected[name] = true 
         end
     end
 
@@ -173,6 +173,7 @@ function module:CalcValueMulti(plant)
 
     return math.max(1, valueMulti)
 end
+
 
 module.MutationsByName = mutations
 return module
