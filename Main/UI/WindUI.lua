@@ -613,7 +613,7 @@ s.X.Scale, s.X.Offset + v.X, s.Y.Scale, s.Y.Offset + v.Y)
                 }, {
                     d.NewRoundFrame(n, "Squircle", {
                         ThemeTag = {
-                            ImageColor3 = "Text",
+                            ImageColor3 = "Accent",
                         },
                         Size = UDim2.new(1, 0, 1, 0),
                         ImageTransparency = .85,
@@ -1412,7 +1412,7 @@ h.Icon, h.Title .. ":" .. h.Icon, 0, g.WindUI.Window, "Popup", g.IconThemed)
                 }, {
                     d.NewRoundFrame(j, "Squircle", {
                         ThemeTag = {
-                            ImageColor3 = "Accent",
+                            ImageColor3 = "Text",
                         },
                         Size = UDim2.new(1, 0, 1, 0),
                         ImageTransparency = .85,
