@@ -2133,7 +2133,7 @@ h.Image, h.Title, h.UICorner - 3, g.Window.Folder, "Image", h.Color and true or 
                     ImageColor3 = Color3.new(0, 0, 0),
                 })
             end
-            local p = d.NewRoundFrame(n, "Squircle", {
+            local p = d.NewRoundFrame(n, "Squircle", { --fungsi toggle ganti
                 ImageTransparency = .95,
                 ThemeTag = {
                     ImageColor3 = "Text"
@@ -2145,10 +2145,18 @@ h.Image, h.Title, h.UICorner - 3, g.Window.Folder, "Image", h.Color and true or 
                     Size = UDim2.new(1, 0, 1, 0),
                     Name = "Layer",
                     ThemeTag = {
-                        ImageColor3 = "Text",
+                        ImageColor3 = "Button",
                     },
                     ImageTransparency = 1,
-                }),
+                }, {
+                    e("UIGradient", {
+                        Rotation = 45,
+                        Color = ColorSequence.new{
+                            ColorSequenceKeypoint.new(0, Color3.fromHex("#9D00FF")),
+                            ColorSequenceKeypoint.new(1, Color3.fromHex("#00E5FF")),
+                        }
+                    })
+                }),                
                 d.NewRoundFrame(n, "SquircleOutline", {
                     Size = UDim2.new(1, 0, 1, 0),
                     Name = "Stroke",
