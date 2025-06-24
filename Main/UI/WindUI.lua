@@ -1412,7 +1412,7 @@ h.Icon, h.Title .. ":" .. h.Icon, 0, g.WindUI.Window, "Popup", g.IconThemed)
                 }, {
                     d.NewRoundFrame(j, "Squircle", {
                         ThemeTag = {
-                            ImageColor3 = "Text",
+                            ImageColor3 = "Accent",
                         },
                         Size = UDim2.new(1, 0, 1, 0),
                         ImageTransparency = .85,
@@ -2145,7 +2145,7 @@ h.Image, h.Title, h.UICorner - 3, g.Window.Folder, "Image", h.Color and true or 
                     Size = UDim2.new(1, 0, 1, 0),
                     Name = "Layer",
                     ThemeTag = {
-                        ImageColor3 = "Button",
+                        ImageColor3 = "Text",
                     },
                     ImageTransparency = 1,
                 }),
