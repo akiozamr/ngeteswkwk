@@ -7,134 +7,134 @@ local mutations = {
         Color = Color3.fromRGB(135, 206, 250)
     },
     ["Moonlit"] = {
-    Name = "Moonlit",
-    ValueMulti = 2,
-    Color = Color3.fromRGB(153, 141, 255)
+        Name = "Moonlit",
+        ValueMulti = 2,
+        Color = Color3.fromRGB(153, 141, 255)
     },
     ["Twisted"] = {
-    Name = "Twisted",
-    ValueMulti = 5,
-    Color = Color3.fromRGB(191, 191, 191)
+        Name = "Twisted",
+        ValueMulti = 5,
+        Color = Color3.fromRGB(191, 191, 191)
     },
     ["Burnt"] = {
-    Name = "Burnt",
-    ValueMulti = 4,
-    Color = Color3.fromRGB(40, 40, 40)
+        Name = "Burnt",
+        ValueMulti = 4,
+        Color = Color3.fromRGB(40, 40, 40)
     },
     ["Choc"] = {
-    Name = "Choc",
-    ValueMulti = 2,
-    Color = Color3.fromRGB(92, 64, 51)
+        Name = "Choc",
+        ValueMulti = 2,
+        Color = Color3.fromRGB(92, 64, 51)
     },
     ["Frozen"] = {
-    Name = "Frozen",
-    ValueMulti = 10,
-    Color = Color3.fromRGB(108, 184, 255)
+        Name = "Frozen",
+        ValueMulti = 10,
+        Color = Color3.fromRGB(108, 184, 255)
     },
     ["Wet"] = {
-    Name = "Wet",
-    ValueMulti = 2,
-    Color = Color3.fromRGB(64, 164, 223)
+        Name = "Wet",
+        ValueMulti = 2,
+        Color = Color3.fromRGB(64, 164, 223)
     },
     ["Shocked"] = {
-    Name = "Shocked",
-    ValueMulti = 100,
-    Color = Color3.fromRGB(255, 255, 100)
+        Name = "Shocked",
+        ValueMulti = 100,
+        Color = Color3.fromRGB(255, 255, 100)
     },
     ["Bloodlit"] = {
-    Name = "Bloodlit",
-    ValueMulti = 4,
-    Color = Color3.fromRGB(200, 0, 0)
+        Name = "Bloodlit",
+        ValueMulti = 4,
+        Color = Color3.fromRGB(200, 0, 0)
     },
     ["Zombified"] = {
-    Name = "Zombified",
-    ValueMulti = 25,
-    Color = Color3.fromRGB(128, 199, 127)
+        Name = "Zombified",
+        ValueMulti = 25,
+        Color = Color3.fromRGB(128, 199, 127)
     },
     ["Celestial"] = {
-    Name = "Celestial",
-    ValueMulti = 120,
-    Color = Color3.fromRGB(255, 0, 255)
+        Name = "Celestial",
+        ValueMulti = 120,
+        Color = Color3.fromRGB(255, 0, 255)
     },
     ["Disco"] = {
-    Name = "Disco",
-    ValueMulti = 125,
-    Color = Color3.fromRGB(255, 105, 180)
+        Name = "Disco",
+        ValueMulti = 125,
+        Color = Color3.fromRGB(255, 105, 180)
     },
     ["Plasma"] = {
-    Name = "Plasma",
-    ValueMulti = 5,
-    Color = Color3.fromRGB(208, 43, 137)
+        Name = "Plasma",
+        ValueMulti = 5,
+        Color = Color3.fromRGB(208, 43, 137)
     },
     ["Voidtouched"] = {
-    Name = "Voidtouched",
-    ValueMulti = 135,
-    Color = Color3.fromRGB(225, 0, 255)
+        Name = "Voidtouched",
+        ValueMulti = 135,
+        Color = Color3.fromRGB(225, 0, 255)
     },
     ["HoneyGlazed"] = {
-    Name = "HoneyGlazed",
-    ValueMulti = 5,
-    Color = Color3.fromRGB(255, 204, 0)
+        Name = "HoneyGlazed",
+        ValueMulti = 5,
+        Color = Color3.fromRGB(255, 204, 0)
     },
     ["Pollinated"] = {
-    Name = "Pollinated",
-    ValueMulti = 3,
-    Color = Color3.fromRGB(255, 170, 0)
+        Name = "Pollinated",
+        ValueMulti = 3,
+        Color = Color3.fromRGB(255, 170, 0)
     },
     ["Windstruck"] = {
-    Name = "Windstruck",
-    ValueMulti = 5,
-    Color = Color3.fromRGB(255, 170, 0)
+        Name = "Windstruck",
+        ValueMulti = 5,
+        Color = Color3.fromRGB(255, 170, 0)
     },
     ["Dawnbound"] = {
-    Name = "Dawnbound",
-    ValueMulti = 150,
-    Color = Color3.fromRGB(255, 170, 0)
+        Name = "Dawnbound",
+        ValueMulti = 150,
+        Color = Color3.fromRGB(255, 170, 0)
     },
     ["Heavenly"] = {
-    Name = "Heavenly",
-    ValueMulti = 5,
-    Color = Color3.fromRGB(255, 170, 0)
+        Name = "Heavenly",
+        ValueMulti = 5,
+        Color = Color3.fromRGB(255, 170, 0)
     },
     ["Molten"] = {
-    Name = "Molten",
-    ValueMulti = 25,
-    Color = Color3.fromRGB(255, 170, 0)
+        Name = "Molten",
+        ValueMulti = 25,
+        Color = Color3.fromRGB(255, 170, 0)
     },
     ["Meteoric"] = {
-    Name = "Meteoric",
-    ValueMulti = 125,
-    Color = Color3.fromRGB(73, 29, 193)
+        Name = "Meteoric",
+        ValueMulti = 125,
+        Color = Color3.fromRGB(73, 29, 193)
     },
     ["Cooked"] = {
-    Name = "Cooked",
-    ValueMulti = 10,
-    Color = Color3.fromRGB(210, 120, 60)
+        Name = "Cooked",
+        ValueMulti = 10,
+        Color = Color3.fromRGB(210, 120, 60)
     },
     ["Paradisal"] = {
-    Name = "Paradisal",
-    ValueMulti = 18,
-    Color = Color3.fromRGB(176, 240, 0)
+        Name = "Paradisal",
+        ValueMulti = 18,
+        Color = Color3.fromRGB(176, 240, 0)
     },
     ["Verdant"] = {
-    Name = "Verdant",
-    ValueMulti = 4,
-    Color = Color3.fromRGB(34, 139, 34)
+        Name = "Verdant",
+        ValueMulti = 4,
+        Color = Color3.fromRGB(34, 139, 34)
     },
     ["Sundried"] = {
-    Name = "Sundried",
-    ValueMulti = 85,
-    Color = Color3.fromRGB(207, 93, 0)
+        Name = "Sundried",
+        ValueMulti = 85,
+        Color = Color3.fromRGB(207, 93, 0)
     },
     ["Galactic"] = {
-    Name = "Galactic",
-    ValueMulti = 120,
-    Color = Color3.fromRGB(243, 148, 255)
+        Name = "Galactic",
+        ValueMulti = 120,
+        Color = Color3.fromRGB(243, 148, 255)
     },
     ["Alienlike"] = {
-    Name = "Alienlike",
-    ValueMulti = 100,
-    Color = Color3.fromRGB(0, 223, 197)
+        Name = "Alienlike",
+        ValueMulti = 100,
+        Color = Color3.fromRGB(0, 223, 197)
     },
 }
 
@@ -154,7 +154,7 @@ function module:CalcValueMulti(plant)
     local valueMulti = 1
     local detected = {}
 
-    -- Cek dari atribut (attribute-based mutation flags)
+    -- Dari attribute
     for name, data in pairs(mutations) do
         if plant:GetAttribute(name) then
             valueMulti *= data.ValueMulti
@@ -162,11 +162,12 @@ function module:CalcValueMulti(plant)
         end
     end
 
+    -- Dari anak StringValue
     for _, child in ipairs(plant:GetChildren()) do
         if child:IsA("StringValue") then
             local name = child.Value
             if mutations[name] and not detected[name] then
-                valueMulti += (mutations[name].ValueMulti - 1)
+                valueMulti *= mutations[name].ValueMulti
                 detected[name] = true
             end
         end
@@ -174,5 +175,6 @@ function module:CalcValueMulti(plant)
 
     return math.max(1, valueMulti)
 end
+
 module.MutationsByName = mutations
 return module
