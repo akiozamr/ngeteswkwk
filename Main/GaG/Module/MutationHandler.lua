@@ -157,7 +157,7 @@ function module:CalcValueMulti(plant)
     -- Cek dari atribut (attribute-based mutation flags)
     for name, data in pairs(mutations) do
         if plant:GetAttribute(name) then
-            valueMulti += (data.ValueMulti - 1)
+            valueMulti *= data.ValueMulti
             detected[name] = true
         end
     end
