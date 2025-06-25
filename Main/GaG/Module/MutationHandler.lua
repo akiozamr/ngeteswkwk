@@ -83,7 +83,7 @@ local mutations = {
     },
     ["Windstruck"] = {
         Name = "Windstruck",
-        ValueMulti = 5,
+        ValueMulti = 2,
         Color = Color3.fromRGB(255, 170, 0)
     },
     ["Dawnbound"] = {
@@ -153,11 +153,11 @@ function module:CalcValueMulti(plant)
 
     local valueMulti = 1
     local detected = {}
-
+    
     for name, data in pairs(mutations) do
         if plant:GetAttribute(name) then
             valueMulti += (data.ValueMulti - 1)
-            detected[name] = true 
+            detected[name] = true
         end
     end
 
@@ -173,7 +173,6 @@ function module:CalcValueMulti(plant)
 
     return math.max(1, valueMulti)
 end
-
 
 module.MutationsByName = mutations
 return module
