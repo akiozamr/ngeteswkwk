@@ -1,8 +1,7 @@
 -- FPS Widget by aabbaaii13/14 (https://rscripts.net/script/fps-counter-v11-9Rrh)
 -- Toggle with: _G.Settings.ShowFPS = true / false
 
-_G.Settings = _G.Settings or {}
-if _G.Settings.ShowFPS == false then return end
+if _G.Settings.Main.ShowFPS == false then return end
 
 local p = game:GetService("Players").LocalPlayer
 if not p:WaitForChild("PlayerGui"):FindFirstChild("TopbarStandard") then
