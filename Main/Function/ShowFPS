@@ -34,3 +34,4 @@ game:GetService("RunService").RenderStepped:Connect(function(dt)
         n, t = 0, 0
     end
 end)
+_G.FPSWidget = frame
