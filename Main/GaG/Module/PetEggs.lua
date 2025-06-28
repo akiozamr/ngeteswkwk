@@ -140,7 +140,8 @@ v18.RarityData = v19
 v1["Uncommon Egg"] = v18
 local v25 = {
     ["Color"] = Color3.fromRGB(255, 255, 255),
-    ["HatchTime"] = 600
+    ["HatchTime"] = 600,
+    ["Icon"] = "rbxassetid://88557327752325"
 }
 local v26 = {}
 local v27 = {}
@@ -173,7 +174,8 @@ v25.RarityData = v26
 v1["Common Egg"] = v25
 local v31 = {
     ["Color"] = Color3.fromRGB(255, 204, 0),
-    ["HatchTime"] = 18400
+    ["HatchTime"] = 18400,
+    ["Icon"] = "rbxassetid://83210224500991"
 }
 local v32 = {}
 local v33 = {}
@@ -377,7 +379,8 @@ v55.RarityData = v56
 v1["Night Egg"] = v55
 local v64 = {
     ["Color"] = Color3.fromRGB(255, 170, 0),
-    ["HatchTime"] = 15000
+    ["HatchTime"] = 15000,
+    ["Icon"] = "rbxassetid://100313281527054"
 }
 local v65 = {}
 local v66 = {}
@@ -440,7 +443,7 @@ local v75 = {
 }
 v74["Disco Bee"] = v75
 local v76 = {
-    ["ItemOdd"] = 0.5,
+    ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
@@ -456,7 +459,7 @@ local v77 = {
 }
 v74.Moth = v77
 local v78 = {
-    ["ItemOdd"] = 30.5,
+    ["ItemOdd"] = 30,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
@@ -582,155 +585,128 @@ v89.Items = v90
 v88.RarityData = v89
 v1["Premium Night Egg"] = v88
 local v97 = {
-    ["Color"] = Color3.fromRGB(255, 255, 255),
-    ["HatchTime"] = 300000000
+    ["Color"] = Color3.fromRGB(255, 255, 0),
+    ["HatchTime"] = 1200,
+    ["Icon"] = "rbxassetid://119578067639695"
 }
 local v98 = {}
 local v99 = {}
 local v100 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 50,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Silver Monkey"] = v100
+v99.Starfish = v100
 local v101 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 25,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Kiwi = v101
+v99.Crab = v101
 local v102 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 25,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Cow = v102
+v99.Seagull = v102
+v98.Items = v99
+v97.RarityData = v98
+v1["Common Summer Egg"] = v97
 local v103 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
+    ["Color"] = Color3.fromRGB(170, 255, 255),
+    ["HatchTime"] = 14400,
+    ["Icon"] = "rbxassetid://86932815278005"
 }
-v99["Sea Otter"] = v103
-local v104 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99.Turtle = v104
-local v105 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99["Polar Bear"] = v105
+local v104 = {}
+local v105 = {}
 local v106 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 30,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Orange Tabby"] = v106
+v105.Flamingo = v106
 local v107 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 25,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Moon Cat"] = v107
+v105.Toucan = v107
 local v108 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 20,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Monkey = v108
+v105["Sea Turtle"] = v108
 local v109 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 15,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Spotted Deer"] = v109
+v105.Orangutan = v109
 local v110 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 10,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Rooster = v110
+v105.Seal = v110
+v104.Items = v105
+v103.RarityData = v104
+v1["Rare Summer Egg"] = v103
 local v111 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
+    ["Color"] = Color3.fromRGB(255, 205, 50),
+    ["HatchTime"] = 24000,
+    ["Icon"] = "rbxassetid://105428605316441"
 }
-v99.Pig = v111
-local v112 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99["Black Bunny"] = v112
-local v113 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99.Cat = v113
+local v112 = {}
+local v113 = {}
 local v114 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 40,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Deer = v114
+v113.Ostrich = v114
 local v115 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 30,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Chicken = v115
+v113.Peacock = v115
 local v116 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 21,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Dog = v116
+v113.Capybara = v116
 local v117 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 8,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Golden Lab"] = v117
+v113["Scarlet Macaw"] = v117
 local v118 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -738,159 +714,116 @@ local v118 = {
         ["HugeChance"] = 0.001
     }
 }
-v99.Bunny = v118
+v113["Mimic Octopus"] = v118
+v112.Items = v113
+v111.RarityData = v112
+v1["Paradise Egg"] = v111
 local v119 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
+    ["Color"] = Color3.fromRGB(255, 205, 119),
+    ["HatchTime"] = 15000,
+    ["Icon"] = "rbxassetid://76221946588708"
 }
-v99.Dragonfly = v119
-local v120 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99["Praying Mantis"] = v120
-local v121 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99.Caterpillar = v121
+local v120 = {}
+local v121 = {}
 local v122 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 45,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Giant Ant"] = v122
+v121.Meerkat = v122
 local v123 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 34.5,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Snail = v123
+v121["Sand Snake"] = v123
 local v124 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 15,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Raccoon = v124
+v121.Axolotl = v124
 local v125 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 5,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Owl = v125
+v121["Hyacinth Macaw"] = v125
 local v126 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 0.5,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Night Owl"] = v126
+v121["Fennec Fox"] = v126
+v120.Items = v121
+v119.RarityData = v120
+v1["Oasis Egg"] = v119
 local v127 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
+    ["Color"] = Color3.fromRGB(255, 205, 119),
+    ["HatchTime"] = 30,
+    ["Icon"] = "rbxassetid://76221946588708"
 }
-v99["Echo Frog"] = v127
-local v128 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99.Frog = v128
-local v129 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99.Mole = v129
+local v128 = {}
+local v129 = {}
 local v130 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 45,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99.Hedgehog = v130
+v129.Meerkat = v130
 local v131 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 34.5,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Blood Hedgehog"] = v131
+v129["Sand Snake"] = v131
 local v132 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 15,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Blood Kiwi"] = v132
+v129.Axolotl = v132
 local v133 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 5,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Blood Owl"] = v133
+v129["Hyacinth Macaw"] = v133
 local v134 = {
-    ["ItemOdd"] = 1,
+    ["ItemOdd"] = 0.5,
     ["GeneratedPetData"] = {
         ["WeightRange"] = { 0.8, 2 },
         ["HugeChance"] = 0.001
     }
 }
-v99["Chicken Zombie"] = v134
+v129["Fennec Fox"] = v134
+v128.Items = v129
+v127.RarityData = v128
+v1["Premium Oasis Egg"] = v127
 local v135 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
+    ["Color"] = Color3.fromRGB(255, 255, 255),
+    ["HatchTime"] = 300000000
 }
-v99["Grey Mouse"] = v135
-local v136 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99.Squirrel = v136
-local v137 = {
-    ["ItemOdd"] = 1,
-    ["GeneratedPetData"] = {
-        ["WeightRange"] = { 0.8, 2 },
-        ["HugeChance"] = 0.001
-    }
-}
-v99["Brown Mouse"] = v137
+local v136 = {}
+local v137 = {}
 local v138 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -898,7 +831,7 @@ local v138 = {
         ["HugeChance"] = 0.001
     }
 }
-v99["Red Giant Ant"] = v138
+v137["Silver Monkey"] = v138
 local v139 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -906,7 +839,7 @@ local v139 = {
         ["HugeChance"] = 0.001
     }
 }
-v99["Red Fox"] = v139
+v137.Kiwi = v139
 local v140 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -914,7 +847,7 @@ local v140 = {
         ["HugeChance"] = 0.001
     }
 }
-v99["Queen Bee"] = v140
+v137.Cow = v140
 local v141 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -922,7 +855,7 @@ local v141 = {
         ["HugeChance"] = 0.001
     }
 }
-v99["Bear Bee"] = v141
+v137["Sea Otter"] = v141
 local v142 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -930,7 +863,7 @@ local v142 = {
         ["HugeChance"] = 0.001
     }
 }
-v99["Petal Bee"] = v142
+v137.Turtle = v142
 local v143 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -938,7 +871,7 @@ local v143 = {
         ["HugeChance"] = 0.001
     }
 }
-v99.Bee = v143
+v137["Polar Bear"] = v143
 local v144 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -946,7 +879,7 @@ local v144 = {
         ["HugeChance"] = 0.001
     }
 }
-v99["Disco Bee"] = v144
+v137["Orange Tabby"] = v144
 local v145 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -954,7 +887,7 @@ local v145 = {
         ["HugeChance"] = 0.001
     }
 }
-v99.Butterfly = v145
+v137["Moon Cat"] = v145
 local v146 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -962,7 +895,7 @@ local v146 = {
         ["HugeChance"] = 0.001
     }
 }
-v99["Tarantula Hawk"] = v146
+v137.Monkey = v146
 local v147 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -970,7 +903,7 @@ local v147 = {
         ["HugeChance"] = 0.001
     }
 }
-v99.Moth = v147
+v137["Spotted Deer"] = v147
 local v148 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -978,7 +911,7 @@ local v148 = {
         ["HugeChance"] = 0.001
     }
 }
-v99.Wasp = v148
+v137.Rooster = v148
 local v149 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -986,7 +919,7 @@ local v149 = {
         ["HugeChance"] = 0.001
     }
 }
-v99["Golden Bee"] = v149
+v137.Pig = v149
 local v150 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -994,7 +927,7 @@ local v150 = {
         ["HugeChance"] = 0.001
     }
 }
-v99["Red Dragon"] = v150
+v137["Black Bunny"] = v150
 local v151 = {
     ["ItemOdd"] = 1,
     ["GeneratedPetData"] = {
@@ -1002,8 +935,480 @@ local v151 = {
         ["HugeChance"] = 0.001
     }
 }
-v99.Firefly = v151
-v98.Items = v99
-v97.RarityData = v98
-v1["Fake Egg"] = v97
+v137.Cat = v151
+local v152 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Deer = v152
+local v153 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Chicken = v153
+local v154 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Dog = v154
+local v155 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Golden Lab"] = v155
+local v156 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Bunny = v156
+local v157 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Dragonfly = v157
+local v158 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Praying Mantis"] = v158
+local v159 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Caterpillar = v159
+local v160 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Giant Ant"] = v160
+local v161 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Snail = v161
+local v162 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Raccoon = v162
+local v163 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Owl = v163
+local v164 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Night Owl"] = v164
+local v165 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Echo Frog"] = v165
+local v166 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Frog = v166
+local v167 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Mole = v167
+local v168 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Hedgehog = v168
+local v169 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Blood Hedgehog"] = v169
+local v170 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Blood Kiwi"] = v170
+local v171 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Blood Owl"] = v171
+local v172 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Chicken Zombie"] = v172
+local v173 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Grey Mouse"] = v173
+local v174 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Squirrel = v174
+local v175 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Brown Mouse"] = v175
+local v176 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Red Giant Ant"] = v176
+local v177 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Red Fox"] = v177
+local v178 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Queen Bee"] = v178
+local v179 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Bear Bee"] = v179
+local v180 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Petal Bee"] = v180
+local v181 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Bee = v181
+local v182 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Disco Bee"] = v182
+local v183 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Butterfly = v183
+local v184 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Tarantula Hawk"] = v184
+local v185 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Moth = v185
+local v186 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Wasp = v186
+local v187 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Cooked Owl"] = v187
+local v188 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Pack Bee"] = v188
+local v189 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Starfish = v189
+local v190 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Crab = v190
+local v191 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Seagull = v191
+local v192 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Flamingo = v192
+local v193 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Toucan = v193
+local v194 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Sea Turtle"] = v194
+local v195 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Orangutan = v195
+local v196 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Seal = v196
+local v197 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Ostrich = v197
+local v198 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Peacock = v198
+local v199 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Capybara = v199
+local v200 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Scarlet Macaw"] = v200
+local v201 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Mimic Octopus"] = v201
+local v202 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Meerkat = v202
+local v203 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Sand Snake"] = v203
+local v204 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Axolotl = v204
+local v205 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Hyacinth Macaw"] = v205
+local v206 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Fennec Fox"] = v206
+local v207 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Hamster = v207
+local v208 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Golden Bee"] = v208
+local v209 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137["Red Dragon"] = v209
+local v210 = {
+    ["ItemOdd"] = 1,
+    ["GeneratedPetData"] = {
+        ["WeightRange"] = { 0.8, 2 },
+        ["HugeChance"] = 0.001
+    }
+}
+v137.Firefly = v210
+v136.Items = v137
+v135.RarityData = v136
+v1["Fake Egg"] = v135
 return v1
