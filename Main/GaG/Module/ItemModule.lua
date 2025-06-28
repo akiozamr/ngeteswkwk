@@ -602,6 +602,12 @@ local allPlants = {
         1,
         1000,
         125
+    },
+    {
+        "White Mulberry",
+        3,
+        3000,
+        200
     }
 }
 
@@ -1506,6 +1512,66 @@ local allSeeds = {
         100,
         0,
         3312012716
+    },
+    {
+        "Aloe Vera Seed",
+        "Aloe Vera",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Rafflesia Seed",
+        "Rafflesia",
+        10,
+        "Legendary",
+        3317729900,
+        100,
+        0,
+        3317750415
+    },
+    {
+        "White Mulberry Seed",
+        "White Mulberry",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Lily of the Valley Seed",
+        "Lily of the Valley",
+        10,
+        "Divine",
+        3265927895,
+        100,
+        0,
+        nil
+    },
+    {
+        "Guanabana Seed",
+        "Guanabana",
+        10,
+        "Divine",
+        3265927895,
+        100,
+        0,
+        nil
+    },
+    {
+        "Pitcher Plant Seed",
+        "Pitcher Plant",
+        10,
+        "Legendary",
+        3317730202,
+        100,
+        0,
+        3317750224
     }
 }
 
