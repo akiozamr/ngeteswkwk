@@ -1460,6 +1460,138 @@ local v7 = {
 		},
 		["States"] = {}
 	},
+    ["Meerkat"] = {
+        ["Description"] = "Lookout: Occasionally goes to another pet and does a lookout for it. That pet advances cooldown. Has a chance chance to do it again after each lookout.",
+        ["Actions"] = {},
+        ["Model"] = i5:FindFirstChild("Meerkat"),
+        ["DefaultHunger"] = 22000,
+        ["WeldOffset"] = CFrame.Angles(0, 0, 0),
+        ["ToolWeldOffset"] = true,
+        ["ModelScalePerLevel"] = 0.005,
+        ["Icon"] = "rbxassetid://111346621796974",
+        ["HungerFruitMultipliers"] = {},
+        ["MovementType"] = "Grounded",
+        ["MovementSpeed"] = 9,
+        ["SellPrice"] = 1100000,
+        ["Rarity"] = "Legendary",
+        ["Passives"] = { "Lookout" },
+        ["YHeightScaler"] = 1,
+        ["Animations"] = {
+            ["Idle"] = i6.Meerkat.Idle,
+            ["Walk"] = i6.Meerkat.Walk,
+            ["Stand"] = i6.Meerkat.Stand
+        }
+    },
+    ["Sand Snake"] = {
+        ["Description"] = "Coiled Commerce: Buying from the seed/gear shop has a small chance to duplicate the bought item!",
+        ["Actions"] = {},
+        ["Model"] = i5:FindFirstChild("Sand Snake"),
+        ["DefaultHunger"] = 28000,
+        ["WeldOffset"] = CFrame.Angles(0, 0, 0),
+        ["ToolWeldOffset"] = true,
+        ["ModelScalePerLevel"] = 0.005,
+        ["Icon"] = "rbxassetid://110203289397199",
+        ["HungerFruitMultipliers"] = {},
+        ["MovementType"] = "Grounded",
+        ["MovementSpeed"] = 6,
+        ["SellPrice"] = 1100000,
+        ["Rarity"] = "Legendary",
+        ["Passives"] = { "Coiled Commerce" },
+        ["YHeightScaler"] = 0.1,
+        ["Animations"] = {
+            ["Idle"] = i6.Snake.Idle,
+            ["Walk"] = i6.Snake.Walk
+        }
+    },
+    ["Axolotl"] = {
+        ["Description"] = "Summer Regeneration: Summer type fruits have a chance to stay after collecting!",
+        ["Actions"] = {},
+        ["Model"] = i5:FindFirstChild("Axolotl"),
+        ["DefaultHunger"] = 22000,
+        ["WeldOffset"] = CFrame.Angles(0, 0, 0),
+        ["ToolWeldOffset"] = true,
+        ["ModelScalePerLevel"] = 0.005,
+        ["Icon"] = "rbxassetid://115096754077953",
+        ["HungerFruitMultipliers"] = {},
+        ["MovementType"] = "Grounded",
+        ["MovementSpeed"] = 5,
+        ["SellPrice"] = 3300000,
+        ["Rarity"] = "Mythical",
+        ["Passives"] = { "Summer Regeneration" },
+        ["YHeightScaler"] = 0.5,
+        ["Animations"] = {
+            ["Idle"] = i6.Axolotl.Idle,
+            ["Walk"] = i6.Axolotl.Walk
+        }
+    },
+    ["Hyacinth Macaw"] = {
+        ["Description"] = "Wiltproof Bird: Occasionally has a chance to mutate nearby fruits Wiltproof",
+        ["Actions"] = {},
+        ["Model"] = i5:FindFirstChild("Hyacinth Macaw"),
+        ["DefaultHunger"] = 12000,
+        ["WeldOffset"] = CFrame.Angles(0, -1.5707963267948966, 0),
+        ["ToolWeldOffset"] = true,
+        ["ModelScalePerLevel"] = 0.005,
+        ["Icon"] = "rbxassetid://118586950763516",
+        ["HungerFruitMultipliers"] = {},
+        ["MovementType"] = "Grounded",
+        ["MovementSpeed"] = 7,
+        ["SellPrice"] = 4400000,
+        ["Rarity"] = "Mythical",
+        ["Passives"] = { "Cloudtouched Bird", "Movement Variation" },
+        ["YHeightScaler"] = 0.75,
+        ["Animations"] = {
+            ["Idle"] = i6.ScarletMacaw.Idle,
+            ["Walk"] = i6.ScarletMacaw.Walk,
+            ["Fly"] = i6.ScarletMacaw.Fly,
+            ["FlyUp"] = i6.ScarletMacaw.FlyUp,
+            ["FlyDown"] = i6.ScarletMacaw.FlyDown
+        }
+    },
+    ["Fennec Fox"] = {
+        ["Description"] = "Sly: Occasionally goes to another player\'s random fruit, has a chance to copy 1 mutation from it and applies it to a random fruit you own.",
+        ["Actions"] = {},
+        ["Model"] = i5:FindFirstChild("Fennec Fox"),
+        ["DefaultHunger"] = 35000,
+        ["WeldOffset"] = CFrame.Angles(0, 0, 0),
+        ["ToolWeldOffset"] = true,
+        ["ModelScalePerLevel"] = 0.005,
+        ["Icon"] = "rbxassetid://106568248173155",
+        ["HungerFruitMultipliers"] = {},
+        ["MovementType"] = "Grounded",
+        ["MovementSpeed"] = 16,
+        ["SellPrice"] = 7500000,
+        ["Rarity"] = "Divine",
+        ["Passives"] = { "Sly" },
+        ["YHeightScaler"] = 1.1,
+        ["Animations"] = {
+            ["Idle"] = i6.FennecFox.Idle,
+            ["Walk"] = i6.FennecFox.Walk,
+            ["Steal"] = i6.FennecFox.Steal
+        }
+    },
+    ["Hamster"] = {
+        ["Description"] = "Hamster Wheel: Occasionally runs in a hamster wheel and grants increased crafting speed for a duration",
+        ["Actions"] = {},
+        ["Model"] = i5:FindFirstChild("Hamster"),
+        ["DefaultHunger"] = 15000,
+        ["WeldOffset"] = CFrame.Angles(0, 0, 0),
+        ["ToolWeldOffset"] = true,
+        ["ModelScalePerLevel"] = 0.005,
+        ["Icon"] = "rbxassetid://95041454621458",
+        ["HungerFruitMultipliers"] = {},
+        ["MovementType"] = "Grounded",
+        ["MovementSpeed"] = 10,
+        ["SellPrice"] = 3300000,
+        ["Rarity"] = "Mythical",
+        ["Passives"] = { "Hamster Wheel" },
+        ["YHeightScaler"] = 0.5,
+        ["Animations"] = {
+            ["Idle"] = i6.Hamster.Idle,
+            ["Walk"] = i6.Hamster.Walk,
+            ["Run"] = i6.Hamster.Run
+        }
+    },
 	["Firefly"] = {
 		["Description"] = "Lightning Bug: Occasionally strikes a random nearby fruit, with a small chance of turning it Shocked",
 		["Actions"] = {},
