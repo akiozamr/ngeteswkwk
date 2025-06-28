@@ -137,23 +137,23 @@ local mutations = {
         Color = Color3.fromRGB(0, 223, 197)
     },
     ["Aurora"] = {
-        Name = "Aurora"
+        Name = "Aurora",
         ValueMulti = 90,
         Color = Color3.fromRGB(99, 89, 175)
     },
     ["Drenched"] = {
-        Name = "Drenched"
-        ValueMulti = 5
+        Name = "Drenched",
+        ValueMulti = 5,
         Color = Color3.fromRGB(0, 55, 228)
     },
     ["Cloudtouched"] = {
-        Name = "Cloudtouched"
-        ValueMulti = 5
+        Name = "Cloudtouched",
+        ValueMulti = 5,
         Color = Color3.fromRGB(225, 255, 255)
     },
     ["Fried"] = {
-        Name = "Fried"
-        ValueMulti = 8
+        Name = "Fried",
+        ValueMulti = 8,
         Color = Color3.fromRGB(223, 110, 34)
     },
     
