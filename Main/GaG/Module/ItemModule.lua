@@ -608,6 +608,12 @@ local allPlants = {
         3,
         3000,
         200
+    },
+    {
+        "Merica Mushroom",
+        30,
+        40000,
+        20
     }
 }
 
@@ -1572,6 +1578,106 @@ local allSeeds = {
         100,
         0,
         3317750224
+    },
+    {
+        "Bone Blossom Seed",
+        "Bone Blossom",
+        10,
+        "Transcendent",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Stonebite Seed",
+        "Stonebite",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Firefly Fern Seed",
+        "Firefly Fern",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Horned Dinoshroom Seed",
+        "Horned Dinoshroom",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Paradise Petal Seed",
+        "Paradise Petal",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Boneboo Seed",
+        "Boneboo",
+        10,
+        "Legendary",
+        0,
+        100,
+        0,
+        0
+    },
+    {
+        "Merica Mushroom Seed",
+        "Merica Mushroom",
+        10,
+        "Legendary",
+        0,
+        10000,
+        0,
+        0
+    },
+    {
+        "Liberty Lily Seed",
+        "Liberty Lily",
+        10,
+        "Rare",
+        0,
+        10000,
+        0,
+        0
+    },
+    {
+        "Firework Flower Seed",
+        "Firework Flower",
+        10,
+        "Rare",
+        0,
+        10000,
+        0,
+        0
+    },
+    {
+        "Fossilight Seed",
+        "Fossilight",
+        10,
+        "Rare",
+        0,
+        10000,
+        0,
+        0
     }
 }
 
@@ -1608,3 +1714,6 @@ function module.Return_All_Seeds()
 end
 
 return module
+
+
+
