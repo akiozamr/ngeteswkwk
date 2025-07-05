@@ -156,7 +156,36 @@ local mutations = {
         ValueMulti = 8,
         Color = Color3.fromRGB(223, 110, 34)
     },
-    
+    ["Amber"] = {
+        Name = "Amber",
+        ValueMulti = 10,
+        Color = Color3.fromRGB(255, 192, 0)
+    },
+    ["OldAmber"] = {
+        Name = "OldAmber",
+        ValueMulti = 20,
+        Color = Color3.fromRGB(252, 106, 33)
+    },
+    ["AncientAmber"] = {
+        Name = "AncientAmber",
+        ValueMulti = 50,
+        Color = Color3.fromRGB(204, 68, 0)
+    },
+    ["Sandy"] = {
+        Name = "Sandy",
+        ValueMulti = 3,
+        Color = Color3.fromRGB(212, 191, 141)
+    },
+    ["Clay"] = {
+        Name = "Clay",
+        ValueMulti = 3,
+        Color = Color3.fromRGB(150, 100, 80)
+    },
+    ["Ceramic"] = {
+        Name = "Ceramic",
+        ValueMulti = 30,
+        Color = Color3.fromRGB(234, 184, 146)
+    },
 
 
 }
