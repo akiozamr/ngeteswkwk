@@ -186,6 +186,31 @@ local mutations = {
         ValueMulti = 30,
         Color = Color3.fromRGB(234, 184, 146)
     },
+    ["Tempestuous"] = {
+        Name = "Tempestuous",
+        ValueMulti = 12,
+        Color = Color3.fromRGB(143, 163, 180)
+    },
+    ["Infected"] = {
+        Name = "Infected",
+        ValueMulti = 75,
+        Color = Color3.fromRGB(67, 167, 0)
+    },
+    ["Friendbound"] = {
+        Name = "Friendbound",
+        ValueMulti = 70,
+        Color = Color3.fromRGB(255, 0, 127)
+    },
+    ["Friendbound"] = {
+        Name = "Friendbound",
+        ValueMulti = 70,
+        Color = Color3.fromRGB(255, 0, 127)
+    },
+    ["Friendbound"] = {
+        Name = "Friendbound",
+        ValueMulti = 70,
+        Color = Color3.fromRGB(255, 0, 127)
+    },
 
 
 }
