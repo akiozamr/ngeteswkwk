@@ -1,3 +1,5 @@
+local longstring1 = "Frilled Reptile: Occasionally opens its frills and spits out venom! The venom spreads to other random pets, advancing cooldown OR granting bonus xp"
+local longstring2 = "Occasionally, devours a random mutation from random fruits in your garden each, roars and applies it to 1 other random fruit in your garden!"
 local RunService = game:GetService("RunService")
 local var6
 local function INLINED() -- Internal function, doesn't exist in bytecode
@@ -703,7 +705,7 @@ local module = {
 		States = {};
 	};
 	Squirrel = {
-		Description = "Seed Stash: Planting seeds have a small chance to not be consumed. Rarer plants have less chance. Does not work with exclusive seeds.";
+		Description = "Seed Stash: Grants a chance to not consume a use when using the reclaimer & Nutty Apology: Gains additional XP per second";
 		Actions = {};
 		Model = var6:FindFirstChild("Squirrel");
 		DefaultHunger = 15000;
@@ -715,7 +717,7 @@ local module = {
 		MovementSpeed = 8;
 		SellPrice = 5500000;
 		Rarity = "Legendary";
-		Passives = {};
+		Passives = {"Seed Stash", "Nutty Apology"};
 		YHeightScaler = 0.4;
 		Animations = {
 			Idle = PetAnimations.Squirrel.Idle;
@@ -1226,7 +1228,7 @@ local module = {
 		MovementSpeed = 7;
 		SellPrice = 70000;
 		Rarity = "Common";
-		Passives = {"Scavenger", "Movement Variation"};
+		Passives = {"Movement Variation"};
 		YHeightScaler = 0.1;
 		Animations = {
 			Idle = PetAnimations.Seagull.Idle;
@@ -1441,7 +1443,7 @@ local module = {
 		};
 	};
 	["Mimic Octopus"] = {
-		Description = "Mimicry: Mimics and copies an ability from another pet and peforms its ability";
+		Description = "Mimicry: Mimics and copies an ability from another pet and performs its ability";
 		Actions = {};
 		Model = var6:FindFirstChild("Mimic Octopus");
 		DefaultHunger = 25000;
@@ -1701,8 +1703,8 @@ local module = {
 		HungerFruitMultipliers = {};
 		MovementType = "Grounded";
 		MovementSpeed = 10;
-		SellPrice = 5000000;
-		Rarity = "Legendary";
+		SellPrice = 10000000;
+		Rarity = "Mythical";
 		Passives = {"Sky Reptile", "Air Time", "Movement Variation"};
 		YHeightScaler = 1;
 		Animations = {
@@ -1736,6 +1738,28 @@ local module = {
 			Walk = PetAnimations.Brontosaurus.Walk;
 		};
 	};
+	["Radioactive Stegosaurus"] = {
+		Description = "Developer RemorsEcoDe's pet";
+		Actions = {};
+		Model = var6:FindFirstChild("Radioactive Stegosaurus");
+		DefaultHunger = 40000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://115750504063562";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 8;
+		SellPrice = 5000000;
+		Rarity = "Legendary";
+		Passives = {"Radioactive Lizard"};
+		YHeightScaler = 0;
+		Animations = {
+			Idle = PetAnimations.Stegosaurus.Idle;
+			Walk = PetAnimations.Stegosaurus.Walk;
+		};
+	};
 	["T-Rex"] = {
 		Description = "Apex Predator: Occasionally eats a random mutation from a fruit in your garden then roars and applies that mutation to other fruits in your garden.";
 		Actions = {};
@@ -1758,6 +1782,284 @@ local module = {
 			Walk = PetAnimations.Trex.Walk;
 			Eat = PetAnimations.Trex.Eat;
 			Roar = PetAnimations.Trex.Roar;
+		};
+	};
+	Parasaurolophus = {
+		Description = "Crowbar Head: Occasionally, goes to the cosmetic crate with the highest time and reduces time to open!";
+		Actions = {};
+		Model = var6:FindFirstChild("Parasaurolophus");
+		DefaultHunger = 40000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://77060347493123";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 9;
+		SellPrice = 5000000;
+		Rarity = "Legendary";
+		Passives = {"Crowbar Head"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Parasaurolophus.Idle;
+			Walk = PetAnimations.Parasaurolophus.Walk;
+			Crowbar = PetAnimations.Parasaurolophus.Crowbar;
+		};
+	};
+	Iguanodon = {
+		Description = "Dino Herd: Grants bonus experience per second gain to all Dinosaur type active pets";
+		Actions = {};
+		Model = var6:FindFirstChild("Iguanodon");
+		DefaultHunger = 40000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://132997806707299";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 8;
+		SellPrice = 5000000;
+		Rarity = "Legendary";
+		Passives = {"Dino Herd"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Iguanodon.Idle;
+			Walk = PetAnimations.Iguanodon.Walk;
+		};
+	};
+	Pachycephalosaurus = {
+		Description = "Crafty Dome: Grants a small chance to duplicate the crafted item.";
+		Actions = {};
+		Model = var6:FindFirstChild("Pachycephalosaurus");
+		DefaultHunger = 40000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://98967783170808";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 9;
+		SellPrice = 5000000;
+		Rarity = "Legendary";
+		Passives = {"Crafty Dome"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Pachycephalosaurus.Idle;
+			Walk = PetAnimations.Pachycephalosaurus.Walk;
+		};
+	};
+	Dilophosaurus = {
+		Description = longstring1;
+		Actions = {};
+		Model = var6:FindFirstChild("Dilophosaurus");
+		DefaultHunger = 30000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://88442192911950";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 10;
+		SellPrice = 10000000;
+		Rarity = "Mythical";
+		Passives = {"Frilled Reptile"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Dilophosaurus.Idle;
+			Walk = PetAnimations.Dilophosaurus.Walk;
+			Frill = PetAnimations.Dilophosaurus.Frill;
+		};
+	};
+	Ankylosaurus = {
+		Description = "Armored Defender: When a player steals a fruit from you, grants a chance you get the stolen fruit as well.";
+		Actions = {};
+		Model = var6:FindFirstChild("Ankylosaurus");
+		DefaultHunger = 40000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://128962631009648";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 8;
+		SellPrice = 20000000;
+		Rarity = "Mythical";
+		Passives = {"Armored Defender"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Ankylosaurus.Idle;
+			Walk = PetAnimations.Ankylosaurus.Walk;
+		};
+	};
+	Spinosaurus = {
+		Description = longstring2;
+		Actions = {};
+		Model = var6:FindFirstChild("Spinosaurus");
+		DefaultHunger = 25000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://78132119445447";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 9;
+		SellPrice = 40000000;
+		Rarity = "Divine";
+		Passives = {"Food Chain"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Spinosaurus.Idle;
+			Walk = PetAnimations.Spinosaurus.Walk;
+			Eat = PetAnimations.Spinosaurus.Eat;
+			Roar = PetAnimations.Spinosaurus.Roar;
+		};
+	};
+	["Rainbow Parasaurolophus"] = {
+		Description = "Crowbar Head: Occasionally, goes to the cosmetic crate with the highest time and reduces time to open!";
+		Actions = {};
+		Model = var6:FindFirstChild("Rainbow Parasaurolophus");
+		DefaultHunger = 40000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://116062422658499";
+		OddsIcon = "rbxassetid://125458280085952";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 9;
+		SellPrice = 10000000;
+		Rarity = "Legendary";
+		Passives = {"Rainbow Crowbar Head"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Parasaurolophus.Idle;
+			Walk = PetAnimations.Parasaurolophus.Walk;
+			Crowbar = PetAnimations.Parasaurolophus.Crowbar;
+		};
+	};
+	["Rainbow Iguanodon"] = {
+		Description = "Dino Herd: Grants bonus experience per second gain to all Dinosaur type active pets";
+		Actions = {};
+		Model = var6:FindFirstChild("Rainbow Iguanodon");
+		DefaultHunger = 40000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://70960389100537";
+		OddsIcon = "rbxassetid://94572344496310";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 8;
+		SellPrice = 10000000;
+		Rarity = "Legendary";
+		Passives = {"Rainbow Dino Herd"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Iguanodon.Idle;
+			Walk = PetAnimations.Iguanodon.Walk;
+		};
+	};
+	["Rainbow Pachycephalosaurus"] = {
+		Description = "Crafty Dome: Grants a small chance to duplicate the crafted item.";
+		Actions = {};
+		Model = var6:FindFirstChild("Rainbow Pachycephalosaurus");
+		DefaultHunger = 40000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://71353461716145";
+		OddsIcon = "rbxassetid://104196332322283";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 9;
+		SellPrice = 10000000;
+		Rarity = "Legendary";
+		Passives = {"Rainbow Crafty Dome"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Pachycephalosaurus.Idle;
+			Walk = PetAnimations.Pachycephalosaurus.Walk;
+		};
+	};
+	["Rainbow Dilophosaurus"] = {
+		Description = longstring1;
+		Actions = {};
+		Model = var6:FindFirstChild("Rainbow Dilophosaurus");
+		DefaultHunger = 30000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://114260890723408";
+		OddsIcon = "rbxassetid://92472270160849";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 10;
+		SellPrice = 20000000;
+		Rarity = "Mythical";
+		Passives = {"Rainbow Frilled Reptile"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Dilophosaurus.Idle;
+			Walk = PetAnimations.Dilophosaurus.Walk;
+			Frill = PetAnimations.Dilophosaurus.Frill;
+		};
+	};
+	["Rainbow Ankylosaurus"] = {
+		Description = "Armored Defender: When a player steals a fruit from you, grants a chance you get the stolen fruit as well.";
+		Actions = {};
+		Model = var6:FindFirstChild("Rainbow Ankylosaurus");
+		DefaultHunger = 40000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://108330251202915";
+		OddsIcon = "rbxassetid://96359333884841";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 8;
+		SellPrice = 40000000;
+		Rarity = "Mythical";
+		Passives = {"Rainbow Armored Defender"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Ankylosaurus.Idle;
+			Walk = PetAnimations.Ankylosaurus.Walk;
+		};
+	};
+	["Rainbow Spinosaurus"] = {
+		Description = longstring2;
+		Actions = {};
+		Model = var6:FindFirstChild("Rainbow Spinosaurus");
+		DefaultHunger = 25000;
+		WeldOffset = CFrame.Angles(0, 0, 0);
+		ToolWeldOffset = true;
+		TwoHanded = true;
+		ModelScalePerLevel = 0.005;
+		Icon = "rbxassetid://98134533729834";
+		OddsIcon = "rbxassetid://132599364727436";
+		HungerFruitMultipliers = {};
+		MovementType = "Grounded";
+		MovementSpeed = 9;
+		SellPrice = 80000000;
+		Rarity = "Divine";
+		Passives = {"Rainbow Food Chain"};
+		YHeightScaler = 0.05;
+		Animations = {
+			Idle = PetAnimations.Spinosaurus.Idle;
+			Walk = PetAnimations.Spinosaurus.Walk;
+			Eat = PetAnimations.Spinosaurus.Eat;
+			Roar = PetAnimations.Spinosaurus.Roar;
 		};
 	};
 	Firefly = {
@@ -1833,16 +2135,16 @@ for i, v in module do
 		clone.Parent = var6
 	end
 	clone = v.YHeightScaler
-	local var254 = clone
-	if not var254 then
-		var254 = 0
+	local var294 = clone
+	if not var294 then
+		var294 = 0
 	end
-	v.YHeightScaler = var254
-	var254 = v.States
-	local var255 = var254
-	if not var255 then
-		var255 = {}
+	v.YHeightScaler = var294
+	var294 = v.States
+	local var295 = var294
+	if not var295 then
+		var295 = {}
 	end
-	v.States = var255
+	v.States = var295
 end
 return module
