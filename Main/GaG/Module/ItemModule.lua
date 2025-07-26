@@ -148,6 +148,12 @@ local allPlants = {
         375
     },
     {
+        "Elder Strawberry",
+        6,
+        90000,
+        280
+    },
+    {
         "Cauliflower",
         5,
         50,
@@ -368,36 +374,6 @@ local allPlants = {
         30,
         25750,
         200
-    },
-    {
-        "Mega Mushroom",
-        70,
-        500,
-        2000000
-    },
-    {
-        "Cherry Blossom",
-        3,
-        500,
-        400
-    },
-    {
-        "Purple Cabbage",
-        5,
-        500,
-        70
-    },
-    {
-        "Lemon",
-        1,
-        350,
-        50
-    },
-    {
-        "Pink Tulip",
-        0.05,
-        850,
-        55
     },
     {
         "Cranberry",
@@ -790,6 +766,12 @@ local allPlants = {
         90
     },
     {
+        "Sakura Bush",
+        1.5,
+        28575,
+        90
+    },
+    {
         "Soft Sunshine",
         2,
         45000,
@@ -802,10 +784,88 @@ local allPlants = {
         400
     },
     {
+        "Enkaku",
+        5,
+        62000,
+        200
+    },
+    {
+        "Dezen",
+        2,
+        29250,
+        40
+    },
+    {
+        "Lucky Bamboo",
+        5,
+        65000,
+        300
+    },
+    {
+        "Tranquil Bloom",
+        4,
+        93333,
+        200
+    },
+    {
+        "Mega Mushroom",
+        70,
+        500,
+        2000000
+    },
+    {
+        "Cherry Blossom",
+        3,
+        500,
+        400
+    },
+    {
+        "Purple Cabbage",
+        5,
+        500,
+        70
+    },
+    {
+        "Lemon",
+        1,
+        350,
+        50
+    },
+    {
+        "Pink Tulip",
+        0.05,
+        850,
+        55
+    },
+    {
         "Dragon Sapling",
         8,
         69000,
         275
+    },
+    {
+        "Sinisterdrip",
+        5,
+        69000,
+        275
+    },
+    {
+        "Twisted Tangle",
+        3,
+        25000,
+        80
+    },
+    {
+        "Veinpetal",
+        9,
+        25000,
+        70
+    },
+    {
+        "Fruitball",
+        6,
+        7250,
+        90
     }
 }
 
