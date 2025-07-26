@@ -336,6 +336,88 @@ return
             TotalOdds = 100;
         };
     };
+    ["Corrupted Zen Egg"] = {
+        Color = 0.333333, 0, 0;
+        HatchTime = 15000;
+        Icon = "rbxassetid://109901373212167";
+        RarityData = {
+            Items = {
+                Mizuchi = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 3.5000000000000004;
+                    ItemOdd = 3.5;
+                    Name = "Mizuchi";
+                };
+                Tsuchinoko = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 32.2;
+                    ItemOdd = 32.2;
+                    Name = "Tsuchinoko";
+                };
+                Raiju = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 4;
+                    ItemOdd = 4;
+                    Name = "Raiju";
+                };
+                ["Maneki-neko"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 40;
+                    ItemOdd = 40;
+                    Name = "Maneki-neko";
+                };
+                Kodama = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 20;
+                    ItemOdd = 20;
+                    Name = "Kodama";
+                };
+                ["Corrupted Kitsune"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.3;
+                    ItemOdd = 0.3;
+                    Name = "Corrupted Kitsune";
+                };
+            };
+            TotalOdds = 100;
+        };
+    };
     ["Bee Egg"] = {
         Color = 1, 0.666667, 0;
         HatchTime = 15000;
@@ -500,7 +582,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Brontosaurus";
                 };
@@ -512,7 +594,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Kiwi";
                 };
@@ -524,7 +606,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Shiba Inu";
                 };
@@ -536,7 +618,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Capybara";
                 };
@@ -548,7 +630,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Ankylosaurus";
                 };
@@ -560,7 +642,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Parasaurolophus ";
                 };
@@ -572,7 +654,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Ostrich";
                 };
@@ -584,7 +666,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Kitsune";
                 };
@@ -596,7 +678,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Rainbow Dilophosaurus";
                 };
@@ -608,7 +690,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Bunny";
                 };
@@ -620,7 +702,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Disco Bee";
                 };
@@ -632,9 +714,21 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Queen Bee";
+                };
+                Kodama = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Kodama";
                 };
                 ["T-Rex"] = {
                     GeneratedPetData = {
@@ -644,7 +738,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "T-Rex";
                 };
@@ -656,7 +750,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Crab";
                 };
@@ -668,7 +762,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Meerkat";
                 };
@@ -680,7 +774,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Toucan";
                 };
@@ -692,7 +786,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Deer";
                 };
@@ -704,7 +798,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Blood Hedgehog";
                 };
@@ -716,7 +810,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Monkey";
                 };
@@ -728,7 +822,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Squirrel";
                 };
@@ -740,7 +834,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Petal Bee";
                 };
@@ -752,9 +846,33 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Starfish";
+                };
+                Mizuchi = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Mizuchi";
+                };
+                ["Rainbow Kodama"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Rainbow Kodama";
                 };
                 Stegosaurus = {
                     GeneratedPetData = {
@@ -764,7 +882,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Stegosaurus";
                 };
@@ -776,57 +894,9 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Mole";
-                };
-                Chicken = {
-                    GeneratedPetData = {
-                        WeightRange = {
-                            0.8;
-                            2;
-                        };
-                        HugeChance = 0.001;
-                    };
-                    NormalizedOdd = 1.0309278350515463;
-                    ItemOdd = 1;
-                    Name = "Chicken";
-                };
-                ["Echo Frog"] = {
-                    GeneratedPetData = {
-                        WeightRange = {
-                            0.8;
-                            2;
-                        };
-                        HugeChance = 0.001;
-                    };
-                    NormalizedOdd = 1.0309278350515463;
-                    ItemOdd = 1;
-                    Name = "Echo Frog";
-                };
-                Dragonfly = {
-                    GeneratedPetData = {
-                        WeightRange = {
-                            0.8;
-                            2;
-                        };
-                        HugeChance = 0.001;
-                    };
-                    NormalizedOdd = 1.0309278350515463;
-                    ItemOdd = 1;
-                    Name = "Dragonfly";
-                };
-                Raccoon = {
-                    GeneratedPetData = {
-                        WeightRange = {
-                            0.8;
-                            2;
-                        };
-                        HugeChance = 0.001;
-                    };
-                    NormalizedOdd = 1.0309278350515463;
-                    ItemOdd = 1;
-                    Name = "Raccoon";
                 };
                 Firefly = {
                     GeneratedPetData = {
@@ -836,9 +906,153 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Firefly";
+                };
+                Chicken = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Chicken";
+                };
+                ["Red Fox"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Red Fox";
+                };
+                ["Golden Bee"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Golden Bee";
+                };
+                ["Rainbow Corrupted Kitsune"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Rainbow Corrupted Kitsune";
+                };
+                ["Echo Frog"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Echo Frog";
+                };
+                ["Rainbow Maneki-neko"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Rainbow Maneki-neko";
+                };
+                Dragonfly = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Dragonfly";
+                };
+                ["Corrupted Kitsune"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Corrupted Kitsune";
+                };
+                Raccoon = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Raccoon";
+                };
+                Raiju = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Raiju";
+                };
+                Tsuchinoko = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Tsuchinoko";
+                };
+                ["Maneki-neko"] = {
+                    GeneratedPetData = {
+                        WeightRange = {
+                            0.8;
+                            2;
+                        };
+                        HugeChance = 0.001;
+                    };
+                    NormalizedOdd = 0.9259259259259258;
+                    ItemOdd = 1;
+                    Name = "Maneki-neko";
                 };
                 Seagull = {
                     GeneratedPetData = {
@@ -848,7 +1062,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Seagull";
                 };
@@ -860,11 +1074,11 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Raptor";
                 };
-                ["Red Fox"] = {
+                Football = {
                     GeneratedPetData = {
                         WeightRange = {
                             0.8;
@@ -872,9 +1086,9 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
-                    Name = "Red Fox";
+                    Name = "Football";
                 };
                 Snail = {
                     GeneratedPetData = {
@@ -884,7 +1098,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Snail";
                 };
@@ -896,7 +1110,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Nihonzaru";
                 };
@@ -908,11 +1122,11 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Flamingo";
                 };
-                ["Golden Bee"] = {
+                Koi = {
                     GeneratedPetData = {
                         WeightRange = {
                             0.8;
@@ -920,9 +1134,9 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
-                    Name = "Golden Bee";
+                    Name = "Koi";
                 };
                 ["Rainbow Iguanodon"] = {
                     GeneratedPetData = {
@@ -932,7 +1146,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Rainbow Iguanodon";
                 };
@@ -944,7 +1158,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Moon Cat";
                 };
@@ -956,7 +1170,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Owl";
                 };
@@ -968,7 +1182,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Rainbow Ankylosaurus";
                 };
@@ -980,7 +1194,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Sea Otter";
                 };
@@ -992,7 +1206,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Golden Lab";
                 };
@@ -1004,7 +1218,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Orangutan";
                 };
@@ -1016,7 +1230,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Frog";
                 };
@@ -1028,7 +1242,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Pack Bee";
                 };
@@ -1040,7 +1254,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Cooked Owl";
                 };
@@ -1052,7 +1266,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Axolotl";
                 };
@@ -1064,7 +1278,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Red Dragon";
                 };
@@ -1076,7 +1290,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Cow";
                 };
@@ -1088,7 +1302,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Mimic Octopus";
                 };
@@ -1100,7 +1314,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Tanuki";
                 };
@@ -1112,7 +1326,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Rainbow Spinosaurus";
                 };
@@ -1124,7 +1338,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Spinosaurus";
                 };
@@ -1136,7 +1350,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Praying Mantis";
                 };
@@ -1148,7 +1362,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Kappa";
                 };
@@ -1160,7 +1374,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Caterpillar";
                 };
@@ -1172,7 +1386,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Rainbow Parasaurolophus";
                 };
@@ -1184,7 +1398,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Turtle";
                 };
@@ -1196,7 +1410,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Pig";
                 };
@@ -1208,7 +1422,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Rainbow Pachycephalosaurus";
                 };
@@ -1220,7 +1434,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Dilophosaurus";
                 };
@@ -1232,7 +1446,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Pachycephalosaurus";
                 };
@@ -1244,7 +1458,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Sand Snake";
                 };
@@ -1256,7 +1470,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Bear Bee";
                 };
@@ -1268,7 +1482,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Moth";
                 };
@@ -1280,7 +1494,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Fennec Fox";
                 };
@@ -1292,7 +1506,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Triceratops";
                 };
@@ -1304,7 +1518,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Night Owl";
                 };
@@ -1316,7 +1530,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Hamster";
                 };
@@ -1328,7 +1542,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Pterodactyl";
                 };
@@ -1340,7 +1554,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Bee";
                 };
@@ -1352,7 +1566,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Peacock";
                 };
@@ -1364,7 +1578,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Iguanodon";
                 };
@@ -1376,7 +1590,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Dog";
                 };
@@ -1388,7 +1602,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Grey Mouse";
                 };
@@ -1400,7 +1614,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Cat";
                 };
@@ -1412,7 +1626,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Sea Turtle";
                 };
@@ -1424,7 +1638,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Black Bunny";
                 };
@@ -1436,7 +1650,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Brown Mouse";
                 };
@@ -1448,7 +1662,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Wasp";
                 };
@@ -1460,7 +1674,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Silver Monkey";
                 };
@@ -1472,7 +1686,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Tarantula Hawk";
                 };
@@ -1484,7 +1698,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Butterfly";
                 };
@@ -1496,7 +1710,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Hyacinth Macaw";
                 };
@@ -1508,7 +1722,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Orange Tabby";
                 };
@@ -1520,7 +1734,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Tanchozuru";
                 };
@@ -1532,7 +1746,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Red Giant Ant";
                 };
@@ -1544,7 +1758,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Seal";
                 };
@@ -1556,7 +1770,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Chicken Zombie";
                 };
@@ -1568,7 +1782,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Blood Owl";
                 };
@@ -1580,7 +1794,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Blood Kiwi";
                 };
@@ -1592,7 +1806,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Hedgehog";
                 };
@@ -1604,7 +1818,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Giant Ant";
                 };
@@ -1616,7 +1830,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Scarlet Macaw";
                 };
@@ -1628,7 +1842,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Polar Bear";
                 };
@@ -1640,7 +1854,7 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Rooster";
                 };
@@ -1652,12 +1866,12 @@ return
                         };
                         HugeChance = 0.001;
                     };
-                    NormalizedOdd = 1.0309278350515463;
+                    NormalizedOdd = 0.9259259259259258;
                     ItemOdd = 1;
                     Name = "Spotted Deer";
                 };
             };
-            TotalOdds = 97;
+            TotalOdds = 108;
         };
     };
     ["Rainbow Premium Primal Egg"] = {
