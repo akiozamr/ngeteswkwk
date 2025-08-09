@@ -67,6 +67,11 @@ local mutations =
         Color = Color3.fromRGB(67, 167, 0),
         ValueMulti = 75
     },
+    ["Junkshock"] = {
+        Name = "Junkshock",
+        Color = Color3.fromRGB(147, 247, 0),
+        ValueMulti = 45
+    },
     ["AncientAmber"] = {
         Name = "AncientAmber",
         Color = Color3.fromRGB(204, 68, 0),
@@ -112,6 +117,16 @@ local mutations =
         Color = Color3.fromRGB(98, 255, 0),
         ValueMulti = 55
     },
+    ["Aromatic"] = {
+        Name = "Aromatic",
+        Color = Color3.fromRGB(162, 145, 57),
+        ValueMulti = 3
+    },
+    ["Boil"] = {
+        Name = "Boil",
+        Color = Color3.fromRGB(150, 178, 225),
+        ValueMulti = 15
+    },
     ["Celestial"] = {
         Name = "Celestial",
         Color = Color3.fromRGB(255, 0, 255),
@@ -142,6 +157,11 @@ local mutations =
         Color = Color3.fromRGB(176, 240, 0),
         ValueMulti = 100
     },
+    ["Lightcycle"] = {
+        Name = "Lightcycle",
+        Color = Color3.fromRGB(255, 255, 255),
+        ValueMulti = 12
+    },
     ["Clay"] = {
         Name = "Clay",
         Color = Color3.fromRGB(147, 129, 122),
@@ -152,10 +172,10 @@ local mutations =
         Color = Color3.fromRGB(255, 192, 0),
         ValueMulti = 10
     },
-    ["Lightcycle"] = {
-        Name = "Lightcycle",
-        Color = Color3.fromRGB(255, 255, 255),
-        ValueMulti = 12
+    ["Subzero"] = {
+        Name = "Subzero",
+        Color = Color3.fromRGB(0, 255, 255),
+        ValueMulti = 40
     },
     ["HoneyGlazed"] = {
         Name = "HoneyGlazed",
@@ -177,11 +197,6 @@ local mutations =
         Color = Color3.fromRGB(252, 106, 33),
         ValueMulti = 20
     },
-    ["Subzero"] = {
-        Name = "Subzero",
-        Color = Color3.fromRGB(0, 255, 255),
-        ValueMulti = 40
-    },
     ["Touchdown"] = {
         Name = "Touchdown",
         Color = Color3.fromRGB(203, 95, 0),
@@ -191,6 +206,11 @@ local mutations =
         Name = "Disco",
         Color = Color3.fromRGB(255, 105, 180),
         ValueMulti = 125
+    },
+    ["Jackpot"] = {
+        Name = "Jackpot",
+        Color = Color3.fromRGB(132, 245, 112),
+        ValueMulti = 15
     },
     ["Sandy"] = {
         Name = "Sandy",
@@ -207,9 +227,9 @@ local mutations =
         Color = Color3.fromRGB(153, 141, 255),
         ValueMulti = 2
     },
-    ["Jackpot"] = {
-        Name = "Jackpot",
-        Color = Color3.fromRGB(132, 245, 112),
+    ["Oil"] = {
+        Name = "Oil",
+        Color = Color3.fromRGB(52, 52, 77),
         ValueMulti = 15
     },
     ["Cloudtouched"] = {
