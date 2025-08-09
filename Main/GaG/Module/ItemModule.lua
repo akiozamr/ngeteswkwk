@@ -147,6 +147,13 @@ local allPlants = {
     {"Taco Fern", 9.000, 75000, 80},
     {"Twisted Tangle", 3.000, 20000, 80},
     {"Veinpetal", 9.000, 60000, 70},
+    {"Rhubarb", 2.000, 15000, 80},
+    {"Badlands Pepper", 3.500, 45000, 125},
+    {"King Cabbage", 9.000, 120000, 400},
+    {"Spring Onion", 1.500, 30000, 75},
+    {"Butternut Squash", 5.000, 35000, 200},
+    {"Pricklefruit", 8.000, 80000, 300},
+    {"Bitter Melon", 3.500, 77000, 200},
     {"Mega Mushroom", 70.000, 500, 2000000},
     {"Cherry Blossom", 3.000, 500, 400},
     {"Purple Cabbage", 5.000, 500, 70},
@@ -155,8 +162,11 @@ local allPlants = {
     {"Dragon Sapling", 8.000, 69000, 275},
     {"Sinisterdrip", 5.000, 69000, 275},
     {"Fruitball", 6.000, 35000, 90},
+    {"Potato", 4.000, 10000, 150},
+    {"Broccoli", 4.000, 6500, 80},
+    {"Log Pumpkin", 10.000, 18000, 120},
+    {"Canary Melon", 8.000, 24000, 120},
 }
-
 -- Data multiplier varian (variant name, dropChance, multiplier)
 local variants = {
     {"Normal", 1000, 1},
