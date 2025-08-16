@@ -28,6 +28,7 @@ local allPlants = {
     {"Burning Bud", 12.000, 70000, 500},
     {"Giant Pinecone", 5.000, 72000, 375},
     {"Elder Strawberry", 6.000, 90000, 280},
+    {"Romanesco", 8.000, 166000, 160},
     {"Cauliflower", 5.000, 50, 150},
     {"Rafflesia", 8.000, 3500, 80},
     {"Green Apple", 3.000, 300, 200},
@@ -154,6 +155,16 @@ local allPlants = {
     {"Butternut Squash", 5.000, 35000, 200},
     {"Pricklefruit", 8.000, 80000, 300},
     {"Bitter Melon", 3.500, 77000, 200},
+    {"Golden Egg", 8.000, 250000, 50},
+    {"Flare Daisy", 1.500, 25000, 125},
+    {"Duskpuff", 3.000, 35000, 150},
+    {"Mangosteen", 1.500, 50000, 150},
+    {"Poseidon Plant", 3.000, 65555, 400},
+    {"Gleamroot", 2.500, 75000, 200},
+    {"Princess Thorn", 12.000, 111111, 500},
+    {"Mandrake", 3.000, 50000, 80},
+    {"Canary Melon", 8.000, 65000, 300},
+    {"Amberheart", 4.000, 175000, 200},
     {"Mega Mushroom", 70.000, 500, 2000000},
     {"Cherry Blossom", 3.000, 500, 400},
     {"Purple Cabbage", 5.000, 500, 70},
@@ -165,8 +176,12 @@ local allPlants = {
     {"Potato", 4.000, 10000, 150},
     {"Broccoli", 4.000, 6500, 80},
     {"Log Pumpkin", 10.000, 18000, 120},
-    {"Canary Melon", 8.000, 24000, 120},
+    {"Aura Flora", 2.900, 29000, 270},
+    {"Mutant Carrot", 10.000, 18000, 90},
+    {"Cyclamen", 9.000, 6500, 80},
+    {"King Palm", 6.000, 15000, 140},
 }
+
 -- Data multiplier varian (variant name, dropChance, multiplier)
 local variants = {
     {"Normal", 1000, 1},
@@ -186,7 +201,7 @@ function module.Return_Data(itemName)
     end
 end
 
-function module.Return_Multiplier(variantName)
+function module.Return_Variant_Multiplier(variantName)
     for _, v in ipairs(variants) do
         if v[1] == variantName then
             return v[3]
@@ -196,3 +211,5 @@ function module.Return_Multiplier(variantName)
 end
 
 return module
+
+
