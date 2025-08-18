@@ -449,6 +449,54 @@ return {
       ["Amount"] = 15000,
     },
   },
+  ["Pet Pouch"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Pet Pouch",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Common Egg",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Food",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Corndog",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "PetBoost",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Small Treat",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "PetBoost",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Small Toy",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GearEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 50000000,
+    },
+  },
   ["Mutation Spray Choc"] = {
     ["Outputs"] = {
       [1] = {
