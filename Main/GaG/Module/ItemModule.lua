@@ -185,6 +185,7 @@ local allPlants = {
 -- Data multiplier varian (variant name, dropChance, multiplier)
 local variants = {
     {"Normal", 1000, 1},
+    {"Silver", 20, 5},
     {"Gold", 10, 20},
     {"Rainbow", 1, 50}
 }
