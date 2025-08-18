@@ -5,7 +5,7 @@ local mutations =
     ["Eclipsed"] = {
         Name = "Eclipsed",
         Color = Color3.fromRGB(44, 111, 162),
-        ValueMulti = 20
+        ValueMulti = 30
     },
     ["Meteoric"] = {
         Name = "Meteoric",
@@ -66,11 +66,6 @@ local mutations =
         Name = "Infected",
         Color = Color3.fromRGB(67, 167, 0),
         ValueMulti = 75
-    },
-    ["Enchanted"] = {
-        Name = "Enchanted",
-        Color = Color3.fromRGB(255, 214, 89),
-        ValueMulti = 50
     },
     ["Junkshock"] = {
         Name = "Junkshock",
@@ -152,30 +147,20 @@ local mutations =
         Color = Color3.fromRGB(64, 164, 223),
         ValueMulti = 2
     },
-    ["Lightcycle"] = {
-        Name = "Lightcycle",
-        Color = Color3.fromRGB(255, 255, 255),
-        ValueMulti = 50
-    },
     ["Friendbound"] = {
         Name = "Friendbound",
         Color = Color3.fromRGB(255, 0, 127),
         ValueMulti = 70
-    },
-    ["Subzero"] = {
-        Name = "Subzero",
-        Color = Color3.fromRGB(0, 255, 255),
-        ValueMulti = 40
     },
     ["Paradisal"] = {
         Name = "Paradisal",
         Color = Color3.fromRGB(176, 240, 0),
         ValueMulti = 100
     },
-    ["Touchdown"] = {
-        Name = "Touchdown",
-        Color = Color3.fromRGB(203, 95, 0),
-        ValueMulti = 105
+    ["Lightcycle"] = {
+        Name = "Lightcycle",
+        Color = Color3.fromRGB(255, 255, 255),
+        ValueMulti = 12
     },
     ["Clay"] = {
         Name = "Clay",
@@ -187,10 +172,10 @@ local mutations =
         Color = Color3.fromRGB(255, 192, 0),
         ValueMulti = 10
     },
-    ["Disco"] = {
-        Name = "Disco",
-        Color = Color3.fromRGB(255, 105, 180),
-        ValueMulti = 125
+    ["Subzero"] = {
+        Name = "Subzero",
+        Color = Color3.fromRGB(0, 255, 255),
+        ValueMulti = 40
     },
     ["HoneyGlazed"] = {
         Name = "HoneyGlazed",
@@ -212,20 +197,20 @@ local mutations =
         Color = Color3.fromRGB(252, 106, 33),
         ValueMulti = 20
     },
+    ["Touchdown"] = {
+        Name = "Touchdown",
+        Color = Color3.fromRGB(203, 95, 0),
+        ValueMulti = 105
+    },
+    ["Disco"] = {
+        Name = "Disco",
+        Color = Color3.fromRGB(255, 105, 180),
+        ValueMulti = 125
+    },
     ["Jackpot"] = {
         Name = "Jackpot",
         Color = Color3.fromRGB(132, 245, 112),
         ValueMulti = 15
-    },
-    ["Bloom"] = {
-        Name = "Bloom",
-        Color = Color3.fromRGB(170, 255, 0),
-        ValueMulti = 8
-    },
-    ["Fortune"] = {
-        Name = "Fortune",
-        Color = Color3.fromRGB(255, 192, 5),
-        ValueMulti = 50
     },
     ["Sandy"] = {
         Name = "Sandy",
@@ -399,6 +384,26 @@ function module:CalcValueMulti(plant)
 
     return math.max(1, valueMulti)
 end
+
+function module:CalcValueMultiFromText(nameWithWeight)
+    if typeof(nameWithWeight) ~= "string" then
+        return 1
+    end
+
+    local valueMulti = 1
+
+    local variantListStr = nameWithWeight:match("^%[(.-)%]")
+    if variantListStr then
+        for v in string.gmatch(variantListStr, "[^,%s]+") do
+            if mutations[v] then
+                valueMulti += (mutations[v].ValueMulti - 1)
+            end
+        end
+    end
+
+    return math.max(1, valueMulti)
+end
+
 
 module.MutationsByName = mutations
 return module
