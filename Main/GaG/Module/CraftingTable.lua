@@ -1,4 +1,52 @@
 return {
+  ["Sprout Egg"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Sprout Egg",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Seed Pack",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Sprout Seed Pack",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Uncommon Egg",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GiantBeanstalkEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 2500000,
+    },
+  },
   ["Small Treat"] = {
     ["Outputs"] = {
       [1] = {
@@ -408,6 +456,54 @@ return {
       ["Amount"] = 450000,
     },
   },
+  ["Green Bean Memories"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Cosmetic",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Green Bean Memories",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Seed Pack",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Sprout Seed Pack",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "CosmeticCrate",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Sprout Crate",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GiantBeanstalkEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 4500000,
+    },
+  },
   ["Horsetail"] = {
     ["Outputs"] = {
       [1] = {
@@ -585,6 +681,98 @@ return {
       ["Amount"] = 12,
     },
   },
+  ["Pet Shard GiantBean"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "PetShard",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Pet Shard GiantBean",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "PetShard",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Cleansing Pet Shard",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GiantBeanstalkEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 15000000,
+    },
+  },
+  ["Spice Spritzer Sprinkler"] = {
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Pepper",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Ember Lily",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Cacao",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Sprinkler",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Master Sprinkler",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GearEventWorkbench",
+    },
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Spice Spritzer Sprinkler",
+        },
+      },
+    },
+  },
   ["Sweet Soaker Sprinkler"] = {
     ["Inputs"] = {
       [1] = {
@@ -627,6 +815,88 @@ return {
           ["ItemName"] = "Sweet Soaker Sprinkler",
         },
       },
+    },
+  },
+  ["Mutation Spray Amber"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Mutation Spray Amber",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "SprayBottle",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Cleaning Spray",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Dinosaur Egg",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "DinoEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 1000000,
+    },
+  },
+  ["Willowberry"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Willowberry",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Flare Melon",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Glowpod",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GiantBeanstalkEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 5500000,
     },
   },
   ["Stalk Sprout Sprinkler"] = {
@@ -753,6 +1023,54 @@ return {
     ["Cost"] = {
       ["CurrencyType"] = "SummerCoins",
       ["Amount"] = 18,
+    },
+  },
+  ["Skyroot Chest"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Seed Pack",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Skyroot Chest",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Seed Pack",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Sprout Seed Pack",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Sprout Egg",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GiantBeanstalkEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 7500000,
     },
   },
   ["Amber Spine"] = {
@@ -1049,38 +1367,52 @@ return {
       ["Amount"] = 650000,
     },
   },
-  ["Mutation Spray Amber"] = {
+  ["Bean Pool Table"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Gear",
+        ["ItemType"] = "Cosmetic",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Mutation Spray Amber",
+          ["ItemName"] = "Bean Pool Table",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "SprayBottle",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Cleaning Spray",
+          ["ItemName"] = "Beanstalk",
         },
       },
       [2] = {
-        ["ItemType"] = "PetEgg",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Dinosaur Egg",
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Coconut",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "CosmeticCrate",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Sprout Crate",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "DinoEventWorkbench",
+      [1] = "GiantBeanstalkEventWorkbench",
     },
     ["Cost"] = {
       ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 1000000,
+      ["Amount"] = 4500000,
     },
   },
   ["Tanning Mirror"] = {
@@ -1464,48 +1796,52 @@ return {
       ["Amount"] = 1000000,
     },
   },
-  ["Spice Spritzer Sprinkler"] = {
+  ["Bean Sprout Float Light"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Cosmetic",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Bean Sprout Float Light",
+        },
+      },
+    },
     ["Inputs"] = {
       [1] = {
         ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Pepper",
+          ["ItemName"] = "Beanstalk",
         },
       },
       [2] = {
         ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Ember Lily",
+          ["ItemName"] = "Beanstalk",
         },
       },
       [3] = {
         ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Cacao",
+          ["ItemName"] = "Flare Melon",
         },
       },
       [4] = {
-        ["ItemType"] = "Sprinkler",
+        ["ItemType"] = "CosmeticCrate",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Master Sprinkler",
+          ["ItemName"] = "Sprout Crate",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "GearEventWorkbench",
+      [1] = "GiantBeanstalkEventWorkbench",
     },
-    ["Outputs"] = {
-      [1] = {
-        ["ItemType"] = "Gear",
-        ["ItemData"] = {
-          ["Quantity"] = 1,
-          ["ItemName"] = "Spice Spritzer Sprinkler",
-        },
-      },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 4500000,
     },
   },
   ["Peace Lily"] = {
