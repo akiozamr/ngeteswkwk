@@ -1,4 +1,4 @@
 return {
     LootLabs    = "securedlootlabs",
-    Linkvertise = "securedlinkvertise",
+    Linkvertise = "linkvertise",
 }
